@@ -1,0 +1,18 @@
+name: Theme Check
+
+on:
+  pull_request:
+    branches: [main, staging]
+
+jobs:
+  theme-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Shopify Theme Check
+        uses: shopify/theme-check-action@v1
+        with:
+          flags: '--fail-level error'
