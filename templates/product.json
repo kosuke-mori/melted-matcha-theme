@@ -48,43 +48,17 @@
         "siblings": {
           "type": "siblings",
           "settings": {
+            "siblings_collection": "",
+            "sibling_color": "",
             "option_font_size": "body-medium",
             "value_font_size": "body-x-small",
             "padding_bottom": 16
-          }
-        },
-        "variants": {
-          "type": "variants",
-          "settings": {
-            "info_page": "ring-size-guide",
-            "size_chart_style": "question",
-            "option_font_size": "body-medium",
-            "value_font_size": "body-x-small",
-            "padding_bottom": 16
-          }
-        },
-        "countdown": {
-          "type": "countdown",
-          "settings": {
-            "end_date": "2025-8-30",
-            "end_time": "11:59",
-            "period": "am",
-            "end_message": "<p>Offer has expired</p>",
-            "hide_on_complete": true,
-            "digits_font_size": "heading-small",
-            "text_font_size": "body-x-small",
-            "text": "<p>Our seasonal sale ends soon</p>",
-            "heading_font_size": "heading-x-small",
-            "bg_color": "#e9d2c2",
-            "color": "",
-            "text_align": "text-center",
-            "padding_bottom": 8
           }
         },
         "accordion": {
           "type": "accordion",
           "settings": {
-            "style": "drawer",
+            "style": "collapsible",
             "show_description": true,
             "show_read_more": false,
             "default_open": false,
@@ -102,7 +76,7 @@
         "accordion-0": {
           "type": "accordion",
           "settings": {
-            "style": "drawer",
+            "style": "collapsible",
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
@@ -122,6 +96,7 @@
           "settings": {
             "show_notice": "always",
             "max_inventory": 10,
+            "show_inventory_counter": false,
             "icon_size": 20,
             "in_stock_color": "#56ad6a",
             "low_stock_color": "#f79554",
@@ -136,6 +111,7 @@
             "button_type": "btn--black",
             "button_size": "btn--large",
             "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
             "button_type_dynamic": "btn--secondary",
             "button_size_dynamic": "btn--large",
             "button_style_dynamic": "btn--solid",
@@ -244,8 +220,6 @@
         "title",
         "price",
         "siblings",
-        "variants",
-        "countdown",
         "accordion",
         "accordion-0",
         "inventory_countdown",
@@ -272,64 +246,6 @@
         "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 80
-      }
-    },
-    "section-announcement": {
-      "type": "section-announcement",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>•</p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Free shipping on orders over $200",
-            "heading_font_size": "heading-x-small"
-          }
-        },
-        "text-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>•</p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "heading-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "1 Year Warranty",
-            "heading_font_size": "heading-x-small"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading",
-        "text-0",
-        "heading-0"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "scheme-2",
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "section-accordion": {
@@ -541,66 +457,6 @@
         "show_placeholder": true
       }
     },
-    "section-custom-content": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "title": "Pieces to Keep Forever",
-            "heading_font_size": "heading-small",
-            "text": "<p>Thoughtfully designed jewelry to wear everyday</p>",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "Learn more",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "title": "Latest Lookbook",
-            "heading_font_size": "heading-small",
-            "text": "<p>Our newest collection inspired by unique shapes</p>",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "Shop now",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image-2",
-        "image-3"
-      ],
-      "settings": {
-        "borders": false,
-        "gutters": true,
-        "width": "wrapper--full-padded",
-        "height": "sixty-fifty-height-hero",
-        "mobile_height": "four-fifty-height-hero--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-10",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "related": {
       "type": "related",
       "blocks": {
@@ -639,12 +495,10 @@
   "order": [
     "section-divider",
     "product",
-    "section-announcement",
     "section-accordion",
     "section-accordion-0",
     "section-accordion-1",
     "section-hero",
-    "section-custom-content",
     "related"
   ]
 }
