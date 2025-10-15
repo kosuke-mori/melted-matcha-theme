@@ -1,5 +1,6 @@
 # Shopify-managed state
-config/settings_data.json
+# NOTE: settings_data.json is NOT ignored
+# We want theme settings to sync bidirectionally
 
 # App-generated schemas
 locales/*.schema.json
