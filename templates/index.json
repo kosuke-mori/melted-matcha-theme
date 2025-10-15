@@ -1,0 +1,633 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section-slideshow-nested": {
+      "type": "section-slideshow-nested",
+      "blocks": {
+        "slide-image": {
+          "type": "_slide-image",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "flex_align_desktop": "align--bottom-left-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "text"
+          },
+          "blocks": {
+            "heading": {
+              "type": "heading",
+              "settings": {
+                "text": "Everyday Luxury",
+                "heading_font_size": "heading-large",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "Beautiful pieces to pass down for generations",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "group-buttons": {
+              "type": "_group-buttons",
+              "name": "Side by side buttons",
+              "settings": {
+                "button_text": "Shop all products",
+                "button_url": "",
+                "button_type": "btn--black",
+                "button_size": "",
+                "button_style": "btn--solid",
+                "show_arrow": false,
+                "button_secondary_text": "Shop sale",
+                "button_secondary_url": "",
+                "button_secondary_type": "btn--white",
+                "button_secondary_size": "",
+                "button_secondary_style": "btn--solid",
+                "show_secondary_arrow": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading",
+            "text",
+            "group-buttons"
+          ]
+        },
+        "slide-video": {
+          "type": "_slide-video",
+          "name": "Video",
+          "disabled": true,
+          "settings": {
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "opacity"
+          },
+          "blocks": {
+            "heading-0": {
+              "type": "heading",
+              "settings": {
+                "text": "Light That Lives With You",
+                "heading_font_size": "heading-large",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text-0": {
+              "type": "text",
+              "name": "Text",
+              "settings": {
+                "text": "Crafted to glow with meaning, every day",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "button": {
+              "type": "button",
+              "settings": {
+                "text": "Shop the Gemstone Collection",
+                "link": "",
+                "type": "btn--white",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading-0",
+            "text-0",
+            "button"
+          ]
+        },
+        "slide-image-0": {
+          "type": "_slide-image",
+          "name": "Image",
+          "settings": {
+            "image": "shopify://shop_images/tea-plants-artistic-shallow-depth.jpg",
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled"
+          },
+          "blocks": {
+            "heading-1": {
+              "type": "heading",
+              "settings": {
+                "text": "Matcha from Japan’s southern tea powerhouse",
+                "heading_font_size": "heading-large",
+                "heading_tag": "automatic",
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "text-1": {
+              "type": "text",
+              "settings": {
+                "text": "Award-Winning single region matcha, vibrant and umami-rich",
+                "text_font_size": "body-large",
+                "padding_bottom": 16
+              },
+              "blocks": {}
+            },
+            "button-0": {
+              "type": "button",
+              "settings": {
+                "text": "Shop Award-Winning Matcha",
+                "link": "",
+                "type": "btn--white",
+                "size": "btn--large",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading-1",
+            "text-1",
+            "button-0"
+          ]
+        }
+      },
+      "block_order": [
+        "slide-image",
+        "slide-video",
+        "slide-image-0"
+      ],
+      "name": "Slideshow (Nested)",
+      "settings": {
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "width": "wrapper--full",
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_rich_text_f7Pctm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_ECm9aJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "padding_bottom": 6
+          }
+        },
+        "heading_LPXgwp": {
+          "type": "heading",
+          "settings": {
+            "title": "From Japan’s southern tea capital, Chiran Matcha captures the depth and clarity born of volcanic soil and ocean mist.",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "buttons_TpdMnd": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Matcha 101",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ECm9aJ",
+        "heading_LPXgwp",
+        "buttons_TpdMnd"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section-custom-content": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.png",
+            "title": "National Awards for 5 Consecutive Years",
+            "heading_font_size": "heading-medium",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--bottom-left",
+            "show_text_background": false,
+            "bg_color": "#ffffff",
+            "color": "#ffffff",
+            "overlay_type": "text",
+            "link_text": "Shop now",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "Naturally Deep Green Hue",
+            "heading_font_size": "heading-medium",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--bottom-left",
+            "show_text_background": false,
+            "bg_color": "#10290a",
+            "color": "#ffffff",
+            "overlay_type": "text",
+            "link_text": "Shop now",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image-3",
+        "image-4"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-6",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section-text-row": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Value prop 1",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Fully traceable supply chain</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-donation",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Value prop 2",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>1% to orgs and communities</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 35,
+            "icon_color": "rgba(0,0,0,0)",
+            "title": "Value prop 3",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Available everyday</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon",
+        "icon-0",
+        "icon-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-small",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "heading_tag": "automatic"
+      }
+    },
+    "section-double": {
+      "type": "section-double",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "padding_bottom": 6
+          }
+        },
+        "heading-2": {
+          "type": "heading",
+          "settings": {
+            "title": "Matcha that’s perfect for you",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_size": "body-medium",
+            "padding_bottom": 24
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image_width": 80,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop all products",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading-2",
+        "text-2",
+        "image-2",
+        "buttons"
+      ],
+      "settings": {
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "show_placeholder": true
+      }
+    },
+    "section-rich-text": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "WHOLESALE",
+            "padding_bottom": 6
+          }
+        },
+        "heading-7": {
+          "type": "heading",
+          "settings": {
+            "title": "Interested in partnering with us?",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "buttons_eQeEAz": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact us",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading-0",
+        "heading-7",
+        "buttons_eQeEAz"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_newsletter_UdCLAw": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_YMYJgw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tea-bud-macro-water-droplets.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "newsletter_8U7PB9": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Tea Insider",
+            "heading": "Get 10% off your first order over $100 when you join Tea Insider",
+            "heading_font_size": "heading-large",
+            "text": "<p>Join for free and get special offers</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_YMYJgw",
+        "newsletter_8U7PB9"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "width": "wrapper--full",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_sidebar_keKyHK": {
+      "type": "section-sidebar",
+      "blocks": {
+        "header_hcAyVR": {
+          "type": "header",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "accordion_M6jxGD": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much is shipping?",
+            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
+          }
+        },
+        "accordion_J7WJAL": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of the purchase date.</p>"
+          }
+        },
+        "header_CLPNRE": {
+          "type": "header",
+          "settings": {
+            "title": "Discount"
+          }
+        },
+        "accordion_DmAY3a": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I use more than one discount code?",
+            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.</p>"
+          }
+        },
+        "header_hEgja9": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "text_DCNCjc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "header_hcAyVR",
+        "accordion_M6jxGD",
+        "accordion_J7WJAL",
+        "header_CLPNRE",
+        "accordion_DmAY3a",
+        "header_hEgja9",
+        "text_DCNCjc"
+      ],
+      "name": "Sidebar",
+      "settings": {
+        "heading_font_size": "heading-small",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section-slideshow-nested",
+    "section_rich_text_f7Pctm",
+    "section-custom-content",
+    "section-text-row",
+    "section-double",
+    "section-rich-text",
+    "section_newsletter_UdCLAw",
+    "section_sidebar_keKyHK"
+  ]
+}

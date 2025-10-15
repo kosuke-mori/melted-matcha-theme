@@ -1,0 +1,10 @@
+# Shopify-managed state
+config/settings_data.json
+
+# App-generated schemas
+locales/*.schema.json
+
+# Development artifacts
+node_modules/
+*.log
+.DS_Store
