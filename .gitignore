@@ -1,5 +1,6 @@
 # Shopify-managed state
-config/settings_data.json
+# NOTE: settings_data.json is NOT gitignored
+# We want theme settings (colors, fonts, logo) to deploy across environments
 
 # App-generated schemas
 locales/*.schema.json
