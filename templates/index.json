@@ -483,7 +483,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper--full-padded",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 30,
         "padding_bottom": 30

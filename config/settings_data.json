@@ -83,7 +83,7 @@
           "section_bg": "#fcfbf9",
           "section_bg_light": "#f5f2ec",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#091d1c",
+          "btn_primary_bg": "#1c3a13",
           "btn_primary_text": "#ffffff",
           "btn_primary_border": "#212121",
           "btn_secondary_bg": "#ab8c52",
@@ -206,7 +206,7 @@
       "scheme-8": {
         "settings": {
           "section_text": "#fcfbf9",
-          "section_bg": "#091d1c",
+          "section_bg": "#1c3a13",
           "section_bg_light": "#f5f2ec",
           "section_bg_gradient": "",
           "btn_primary_bg": "#fcfbf9",
