@@ -314,172 +314,71 @@
         "padding_bottom": 80
       }
     },
-    "section-accordion": {
-      "type": "section-accordion",
+    "section_sidebar_iLBeXk": {
+      "type": "section-sidebar",
       "blocks": {
-        "text-1": {
-          "type": "text",
+        "header_6jmmFc": {
+          "type": "header",
           "settings": {
-            "title": "How do I take care of my jewelry?",
-            "heading_font_size": "heading-x-small",
-            "text": "<p><em><strong>14K Gold </strong></em></p><p>Scrub lightly with a fresh toothbrush and warm water. You can also buff your pieces using the cloth included in your order.</p><p><br/><em><strong>Sterling Silver</strong></em></p><p>Gently rub the surface with the  cloth included in your order.</p>"
+            "title": "How to drink"
           }
         },
-        "text-2": {
-          "type": "text",
+        "accordion_iEeqyT": {
+          "type": "accordion",
           "settings": {
-            "title": "Do you have a warranty?",
-            "heading_font_size": "heading-x-small",
-            "text": "<p>Yes! For 3 years from the date of purchase, we’ll take care of your product if any damage to the material  occurs. Simply <a href=\"/pages/contact\" title=\"Contact\">contact us</a> and we’ll send you a replacement.</p><p>Please note: This warranty does not cover lost items, scratches that come with normal wear and tear, improper use or storage of your product, and any modification to your product done by a third party.</p>"
+            "title": "Can you teach me how to brew matcha?",
+            "content": "<p>Absolutely! Brewing matcha is a beautiful ritual that highlights the unique qualities of Japanese green tea powder. Here’s a step-by-step guide for preparing matcha using the traditional Japanese method:<br/></p><h3>What You’ll Need</h3><ul><li><strong>High-quality matcha powder</strong></li><li><strong>Tea bowl (Chawan)</strong></li><li><strong>Bamboo whisk (Chasen)</strong></li><li><strong>Sifter (optional, but helps prevent lumps)</strong></li><li><strong>Hot water (about 80°C / 176°F)</strong></li><li><strong>Tea scoop (Chashaku) or small spoon</strong></li></ul><h3>Step-by-Step Instructions</h3><ol><li><strong>Sift the Matcha</strong><br/>Measure out <strong>2 grams</strong> (roughly 1 to 2 chashaku scoops or about 1 teaspoon) of matcha powder. For best texture, sift the powder directly into your tea bowl. This helps break up clumps and ensures a smoother, frothier finish.</li><li><strong>Heat the Water</strong><br/>Boil water and then let it cool to about <strong>80°C / 176°F</strong>. Using water that’s too hot can scorch the matcha and produce bitterness, while cooler water brings out sweetness and umami.</li><li><strong>Add Water to Matcha</strong><br/>Pour <strong>70 ml</strong> (~2.36 fl oz) of hot water into the bowl with sifted matcha powder. This is the typical ratio for “usucha,” or thin matcha, which is commonly enjoyed in Japan.</li><li><strong>Whisk Properly</strong><br/>Using your bamboo whisk, briskly whisk the matcha and water together in an M or W motion—not a circular motion. This aerates the tea and creates a layer of foam on top. Aim for a smooth, creamy consistency with a fine froth.</li><li><strong>Enjoy Immediately</strong><br/>Matcha is best enjoyed right after preparation. Sip directly from the bowl to experience the full flavor: creamy, sweet, savory umami, and a gentle hint of astringency.</li></ol><h3>Tips for Success</h3><ul><li><strong>Sifting the powder</strong> before whisking is key for avoiding lumps.</li><li><strong>Whisk vigorously</strong> for about 15-30 seconds for a frothy texture.</li><li><strong>Adjust strength</strong> to suit your preference by varying the amount of powder or water.</li><li>For a richer “koicha” (thick tea), use more matcha powder and less water.</li></ul>"
           }
         },
-        "text-3": {
-          "type": "text",
+        "header_CnjcWH": {
+          "type": "header",
           "settings": {
-            "title": "How do I use the polishing cloth?",
-            "heading_font_size": "heading-x-small",
-            "text": "<p>Gently rub the surface of your piece with the polishing cloth. Never wash the polishing cloth as it will lose its effectiveness, and keep out of reach of children!</p>"
+            "title": "Shipping & Returns"
           }
         },
-        "text-4": {
+        "accordion_bb9aYf": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much is shipping?",
+            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
+          }
+        },
+        "accordion_6btb8W": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of the purchase date.</p>"
+          }
+        },
+        "header_tri4yt": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "text_6RMX9T": {
           "type": "text",
           "settings": {
-            "title": "Do you create custom pieces?",
-            "heading_font_size": "heading-x-small",
-            "text": "<p>We're not able to build custom pieces at this time. </p>"
+            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you as soon as we can. </p>"
           }
         }
       },
       "block_order": [
-        "text-1",
-        "text-2",
-        "text-3",
-        "text-4"
+        "header_6jmmFc",
+        "accordion_iEeqyT",
+        "header_CnjcWH",
+        "accordion_bb9aYf",
+        "accordion_6btb8W",
+        "header_tri4yt",
+        "text_6RMX9T"
       ],
+      "name": "Sidebar",
       "settings": {
-        "default_open": false,
-        "title": "Care Instructions",
-        "heading_font_size": "heading-x-small",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "width": "wrapper",
+        "heading_font_size": "heading-small",
+        "width": "wrapper--full-padded",
         "color_scheme": "",
-        "icon_color": "",
-        "padding_top": 80,
-        "padding_bottom": 0
-      }
-    },
-    "section-accordion-0": {
-      "type": "section-accordion",
-      "blocks": {
-        "icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-green-shipment",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "International Shipping",
-            "heading_font_size": "heading-x-small",
-            "icon_alignment": "left",
-            "text": "<p>We are happy to announce we officially ship internationally! All orders are dispatched from our US warehouse within 2 - 3 business days.</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon-4": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-location",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Order tracking",
-            "heading_font_size": "heading-x-small",
-            "icon_alignment": "left",
-            "text": "<p>Tracking numbers are automatically sent as soon as your order is packed. Please check your junk folder if you do not receive one 72hrs after placing your order.</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon-5": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "Get in touch",
-            "heading_font_size": "heading-x-small",
-            "icon_alignment": "left",
-            "text": "<p>If you have any questions about your order, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>. Our customer service is available Monday through Friday from 8am until 5pm est.</p>",
-            "text_alignment": "text-left"
-          }
-        }
-      },
-      "block_order": [
-        "icon-3",
-        "icon-4",
-        "icon-5"
-      ],
-      "settings": {
-        "default_open": false,
-        "title": "Shipping  & Returns",
-        "heading_font_size": "heading-x-small",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "width": "wrapper",
-        "color_scheme": "",
-        "icon_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section-accordion-1": {
-      "type": "section-accordion",
-      "blocks": {
-        "image": {
-          "type": "image",
-          "settings": {
-            "title": "Sustainable sourcing",
-            "heading_font_size": "heading-x-small",
-            "text": "<p>We are committed to quality products that are manufactured ethically and sustainably. All of our pieces are traceable throughout the supply chain. We strive to ensure our products contribute to the well-being of people and planet, and our efforts put us on track towards a brighter future.</p>",
-            "aspect_ratio": 0.6
-          }
-        },
-        "image-0": {
-          "type": "image",
-          "settings": {
-            "title": "Ethical labor",
-            "heading_font_size": "heading-x-small",
-            "text": "<p>Our founders Christina Smith and  Clement Savant founded Broadcast to break the norms of the jewelry industry. Cheap, disposable jewelry creates an incentive structure to bid out the work to the cheapest factory available.  We need to vote with our dollars for a more equitable world.</p>",
-            "aspect_ratio": 0.6
-          }
-        },
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "title": "Transparent values",
-            "heading_font_size": "heading-x-small",
-            "text": "<p>We hold true to to who we are.  We believe in equality and justice for all, and those beliefs permeate the work that we do and the jewelry we make.  Everything we do stands for our values and we try to think, speak, and act in a framework of positive change.  Cast out your voice and make a difference. </p>",
-            "aspect_ratio": 0.6
-          }
-        }
-      },
-      "block_order": [
-        "image",
-        "image-0",
-        "image-1"
-      ],
-      "settings": {
-        "default_open": false,
-        "title": "Sourcing & Materials",
-        "heading_font_size": "heading-x-small",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "width": "wrapper",
-        "color_scheme": "",
-        "icon_color": "",
-        "padding_top": 0,
-        "padding_bottom": 80
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section-hero": {
@@ -600,9 +499,7 @@
   "order": [
     "section-divider",
     "product",
-    "section-accordion",
-    "section-accordion-0",
-    "section-accordion-1",
+    "section_sidebar_iLBeXk",
     "section-hero",
     "related",
     "section_double_4AGnhf"
