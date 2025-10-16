@@ -402,18 +402,11 @@
             "padding_bottom": 24
           }
         },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image_width": 80,
-            "padding_bottom": 16
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
-            "button_text": "Shop all products",
-            "button_url": "",
+            "button_text": "Shop all tea",
+            "button_url": "shopify://collections",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -426,13 +419,12 @@
         "subheading",
         "heading-2",
         "text-2",
-        "image-2",
         "buttons"
       ],
       "settings": {
         "image_width": "one-half",
         "text_alignment": "text-center",
-        "layout": "",
+        "layout": "is-reversed",
         "width": "wrapper--full-padded",
         "height": "sixty-fifty-height-hero",
         "mobile_height": "four-fifty-height-hero--mobile",
