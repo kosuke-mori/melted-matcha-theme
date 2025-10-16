@@ -196,10 +196,10 @@
         "icon": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-recycle",
+            "icon_name": "icon-location",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>Free 30 Days Returns</p>",
+            "text": "<p>100% Japanese tea from southern Japan. </p>",
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 8
@@ -211,7 +211,7 @@
             "icon_name": "icon-truck",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>Free shipping on orders over $100</p>",
+            "text": "<p>Free shipping on orders over $150</p>",
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 8
@@ -223,7 +223,7 @@
             "icon_name": "icon-donation",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>1 year warranty</p>",
+            "text": "<p>Carefully sourced from local farmers</p>",
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 8
@@ -235,7 +235,7 @@
             "icon_name": "icon-flare",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>14k Solid Gold</p>",
+            "text": "<p>Exceptional taste</p>",
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 16
@@ -312,64 +312,6 @@
         "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 80
-      }
-    },
-    "section-announcement": {
-      "type": "section-announcement",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>•</p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Free shipping on orders over $200",
-            "heading_font_size": "heading-x-small"
-          }
-        },
-        "text-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>•</p>",
-            "text_font_size": "body-x-large",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "heading-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "1 Year Warranty",
-            "heading_font_size": "heading-x-small"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading",
-        "text-0",
-        "heading-0"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "scheme-2",
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "section-accordion": {
@@ -681,7 +623,6 @@
   "order": [
     "section-divider",
     "product",
-    "section-announcement",
     "section-accordion",
     "section-accordion-0",
     "section-accordion-1",
