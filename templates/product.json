@@ -267,9 +267,9 @@
           "settings": {
             "icon_name": "icon-chat",
             "icon_size": 20,
-            "title": "Need styling help?",
+            "title": "Need help?",
             "text_font_size": "body-medium",
-            "text": "<p>Book an appointment with our virtual stylists! <a href=\"https://broadcast-theme-main.myshopify.com/pages/contact\" title=\"https://broadcast-theme-main.myshopify.com/pages/contact\">Chat now</a></p>",
+            "text": "<p><a href=\"https://broadcast-theme-main.myshopify.com/pages/contact\" title=\"https://broadcast-theme-main.myshopify.com/pages/contact\">Chat now</a></p>",
             "bg_color": "#fcfbf9",
             "color": "",
             "padding_bottom": 16
