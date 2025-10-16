@@ -269,7 +269,7 @@
             "icon_size": 20,
             "title": "Need help?",
             "text_font_size": "body-medium",
-            "text": "<p><a href=\"https://broadcast-theme-main.myshopify.com/pages/contact\" title=\"https://broadcast-theme-main.myshopify.com/pages/contact\">Chat now</a></p>",
+            "text": "<p>Contact us</p>",
             "bg_color": "#fcfbf9",
             "color": "",
             "padding_bottom": 16
