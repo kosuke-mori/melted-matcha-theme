@@ -340,7 +340,7 @@
           "type": "accordion",
           "settings": {
             "title": "How much is shipping?",
-            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
+            "content": "<p>We offer free shipping for orders over $150. Otherwise, standard shipment terms apply. </p>"
           }
         },
         "accordion_6btb8W": {
