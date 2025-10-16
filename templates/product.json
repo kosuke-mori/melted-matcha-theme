@@ -269,7 +269,7 @@
             "icon_size": 20,
             "title": "Need help?",
             "text_font_size": "body-medium",
-            "text": "<p>Contact us</p>",
+            "text": "<p><a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact us</a></p>",
             "bg_color": "#fcfbf9",
             "color": "",
             "padding_bottom": 16
