@@ -17,12 +17,12 @@
         "social": {
           "type": "social",
           "settings": {
-            "title": "About the Brand",
+            "title": "Melted Matcha",
             "heading_font_size": "heading-x-small",
             "text": "",
             "column_width": 25,
             "enable_follow_on_shop": false,
-            "enable_accordion": false
+            "enable_accordion": true
           }
         },
         "linklist": {
@@ -88,7 +88,7 @@
         "show_locale_code": false,
         "show_globe_icon": true,
         "show_country_selector": true,
-        "show_country_name": false,
+        "show_country_name": true,
         "show_country_flag": true,
         "color_scheme": "scheme-8",
         "padding_top": 30,
