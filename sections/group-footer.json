@@ -14,15 +14,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "social": {
-          "type": "social",
+        "linklist_hjfKBN": {
+          "type": "linklist",
           "settings": {
+            "linklist": "main-menu-1",
             "title": "Melted Matcha",
-            "heading_font_size": "heading-x-small",
-            "text": "",
-            "column_width": 25,
-            "enable_follow_on_shop": false,
-            "enable_accordion": true
+            "heading_font_size": "heading-medium",
+            "column_width": 33,
+            "enable_accordion": false
           }
         },
         "linklist": {
@@ -64,7 +63,7 @@
         }
       },
       "block_order": [
-        "social",
+        "linklist_hjfKBN",
         "linklist",
         "linklist-0",
         "newsletter"
