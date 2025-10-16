@@ -488,7 +488,7 @@
         "heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Recycled Materials",
+            "title": "",
             "heading_font_size": "heading-medium",
             "heading_tag": "automatic",
             "padding_bottom": 8
@@ -497,8 +497,8 @@
         "text-5": {
           "type": "text",
           "settings": {
-            "text": "<p>We partner with high quality jewellers who only use recycled gold, AAA-grade gemstones, and ethically sourced diamonds.</p>",
-            "text_font_size": "body-medium",
+            "text": "<p>Award-Winning single region matcha, vibrant and umami-rich</p>",
+            "text_font_size": "body-large",
             "padding_bottom": 8
           }
         }
@@ -508,9 +508,10 @@
         "text-5"
       ],
       "settings": {
+        "image_1": "shopify://shop_images/15.png",
         "link": "",
         "width": "wrapper--full",
-        "height": "five-fifty-height-hero",
+        "height": "seven-fifty-height-hero",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
         "mobile_height": "screen-height-three-quarters--mobile",
