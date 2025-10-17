@@ -568,15 +568,15 @@
         "accordion_q10": {
           "type": "accordion",
           "settings": {
-            "title": "What tea varieties do you offer?",
-            "content": "<p>We feature premium Kagoshima cultivars including Saemidori (vivid green, mellow sweetness), Yutakamidori (rich body), and seasonal selections. Each variety offers distinct flavor profiles rooted in Chiran's terroir.</p>"
+            "title": "What tea varieties does Melted Matcha offer?",
+            "content": "<p>Melted Matcha features premium Kagoshima cultivars including Saemidori (vivid green, mellow sweetness), Yutakamidori (rich body), and seasonal selections. Each variety offers distinct flavor profiles rooted in Chiran's terroir.</p>"
           }
         },
         "accordion_q11": {
           "type": "accordion",
           "settings": {
             "title": "What's the difference between whisk-grade and latte-grade matcha?",
-            "content": "<p>Whisk-grade is our finest quality matcha—typically from first spring harvest—with vivid emerald green color, creamy umami, and low bitterness, perfect for traditional whisked tea. Latte-grade is robust matcha that stands up to milk with balanced sweetness and smooth finish, ideal for lattes, smoothies, and baking. Note that terms like \"ceremonial\" and \"culinary\" are Western marketing terms not traditionally used in Japan. We use whisk-grade and latte-grade to accurately reflect how each matcha performs best.</p>"
+            "content": "<p>Whisk-grade is Melted Matcha's finest quality matcha—typically from first spring harvest—with vivid emerald green color, creamy umami, and low bitterness, perfect for traditional whisked tea. Latte-grade is robust matcha that stands up to milk with balanced sweetness and smooth finish, ideal for lattes, smoothies, and baking. Note that terms like \"ceremonial\" and \"culinary\" are Western marketing terms not traditionally used in Japan. Melted Matcha uses whisk-grade and latte-grade to accurately reflect how each matcha performs best.</p>"
           }
         },
         "header_cert": {
@@ -588,22 +588,22 @@
         "accordion_q12": {
           "type": "accordion",
           "settings": {
-            "title": "Is your matcha organic?",
-            "content": "<p>We offer both certified organic and conventionally grown options that meet strict Japanese food safety standards (G-GAP and JAS). All products undergo rigorous quality testing.</p>"
+            "title": "Is Melted Matcha's matcha organic?",
+            "content": "<p>Melted Matcha offers both certified organic and conventionally grown options that meet strict Japanese food safety standards (G-GAP and JAS). All products undergo rigorous quality testing.</p>"
           }
         },
         "accordion_q13": {
           "type": "accordion",
           "settings": {
-            "title": "What quality standards do you follow?",
-            "content": "<p>Our matcha meets Japanese national production standards and comes from award-winning Chiran producers. We maintain full traceability from field to package with third-party testing for purity.</p>"
+            "title": "What quality standards does Melted Matcha follow?",
+            "content": "<p>Melted Matcha's matcha meets Japanese national production standards and comes from award-winning Chiran producers. Melted Matcha maintains full traceability from field to package with third-party testing for purity.</p>"
           }
         },
         "accordion_q14": {
           "type": "accordion",
           "settings": {
-            "title": "How do you ensure freshness?",
-            "content": "<p>We import small batches directly from Japan and ship promptly to maintain peak freshness. Our suppliers process tea shortly after harvest to preserve color, aroma, and nutrients.</p>"
+            "title": "How does Melted Matcha ensure freshness?",
+            "content": "<p>Melted Matcha imports small batches directly from Japan and ships promptly to maintain peak freshness. Melted Matcha's suppliers process tea shortly after harvest to preserve color, aroma, and nutrients.</p>"
           }
         },
         "header_prep": {
@@ -622,8 +622,8 @@
         "accordion_q16": {
           "type": "accordion",
           "settings": {
-            "title": "Can I use your matcha for lattes and cooking?",
-            "content": "<p>Absolutely—Chiran matcha's rich color and balanced flavor work beautifully in lattes, desserts, and savory dishes. Our latte-grade is specifically selected for versatile kitchen use.</p>"
+            "title": "Can Melted Matcha's matcha be used for lattes and cooking?",
+            "content": "<p>Absolutely—Melted Matcha's Chiran matcha has rich color and balanced flavor that work beautifully in lattes, desserts, and savory dishes. Melted Matcha's latte-grade is specifically selected for versatile kitchen use.</p>"
           }
         },
         "accordion_q17": {
