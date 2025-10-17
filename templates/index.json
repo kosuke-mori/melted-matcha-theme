@@ -564,7 +564,7 @@
           "type": "accordion",
           "settings": {
             "title": "What's the difference between matcha and powdered green tea?",
-            "content": "<p>Matcha is specifically ground tencha (shade-grown tea leaves), while powdered green tea is ground sencha or byproduct powder from regular tea processing. Only matcha has the distinctive covered aroma, vibrant green color, and sweet umami from 20+ days of shading. Powdered green tea lacks shading, tastes more bitter, and has a duller color. Instant tea powder is freeze-dried tea extract that fully dissolves in water.</p>"
+            "content": "<p>Matcha is specifically ground tencha (shade-grown tea leaves), while powdered green tea is ground sencha or byproduct powder from regular tea processing. Only matcha has the distinctive covered aroma, vibrant green color, and sweet umami from 20+ days of shading. Powdered green tea doesn't go need to go through shading, tastes more bitter. Instant tea powder is freeze-dried tea extract that fully dissolves in water.</p>"
           }
         },
         "accordion_q3": {
