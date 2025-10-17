@@ -14,14 +14,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "social": {
-          "type": "social",
+        "linklist_hjfKBN": {
+          "type": "linklist",
           "settings": {
-            "title": "About the Brand",
-            "heading_font_size": "heading-x-small",
-            "text": "",
-            "column_width": 25,
-            "enable_follow_on_shop": false,
+            "linklist": "main-menu-1",
+            "title": "Melted Matcha",
+            "heading_font_size": "heading-small",
+            "column_width": 20,
             "enable_accordion": false
           }
         },
@@ -38,8 +37,8 @@
         "linklist-0": {
           "type": "linklist",
           "settings": {
-            "linklist": "",
-            "title": "Resources",
+            "linklist": "partner-with-us",
+            "title": "Partner with us",
             "heading_font_size": "heading-x-small",
             "column_width": 20,
             "enable_accordion": false
@@ -49,7 +48,7 @@
           "type": "newsletter",
           "settings": {
             "title": "Join for free",
-            "heading_font_size": "heading-x-small",
+            "heading_font_size": "heading-small",
             "text": "<p>Get 10% off your first order over $100 when you join Tea Insider</p>",
             "button_text": "Join",
             "show_arrow": false,
@@ -64,7 +63,7 @@
         }
       },
       "block_order": [
-        "social",
+        "linklist_hjfKBN",
         "linklist",
         "linklist-0",
         "newsletter"
@@ -77,12 +76,13 @@
         "padding_bottom": 30
       }
     },
-    "section-supporting-menu": {
+    "section_supporting_menu_EKycQP": {
       "type": "section-supporting-menu",
+      "name": "Supporting menu",
       "settings": {
         "linklist": "",
         "text_font_size": "body-small",
-        "footer_payment_enable": false,
+        "footer_payment_enable": true,
         "enable_greyscale": false,
         "show_locale_selector": true,
         "show_locale_code": false,
@@ -98,6 +98,6 @@
   },
   "order": [
     "footer",
-    "section-supporting-menu"
+    "section_supporting_menu_EKycQP"
   ]
 }
