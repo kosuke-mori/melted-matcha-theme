@@ -36,87 +36,6 @@
         "padding_bottom": 0
       }
     },
-    "section-highlights": {
-      "type": "section-highlights",
-      "blocks": {
-        "highlight": {
-          "type": "highlight",
-          "settings": {
-            "heading": "New Arrivals",
-            "color": "#212121",
-            "bg_color": "#f5f2ec",
-            "border_color": "#f5f2ec"
-          }
-        },
-        "highlight-0": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Best Sellers",
-            "color": "#212121",
-            "bg_color": "#f5f2ec",
-            "border_color": "#f5f2ec"
-          }
-        },
-        "highlight-1": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Sale",
-            "color": "#212121",
-            "bg_color": "#f5f2ec",
-            "border_color": "#f5f2ec"
-          }
-        },
-        "highlight-2": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Rings",
-            "color": "#212121",
-            "bg_color": "#f5f2ec",
-            "border_color": "#f5f2ec"
-          }
-        },
-        "highlight-3": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Earrings",
-            "color": "#212121",
-            "bg_color": "#f5f2ec",
-            "border_color": "#f5f2ec"
-          }
-        },
-        "highlight-4": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Necklaces",
-            "color": "#212121",
-            "bg_color": "#f5f2ec",
-            "border_color": "#f5f2ec"
-          }
-        }
-      },
-      "block_order": [
-        "highlight",
-        "highlight-0",
-        "highlight-1",
-        "highlight-2",
-        "highlight-3",
-        "highlight-4"
-      ],
-      "settings": {
-        "style": "button",
-        "grid": 6,
-        "heading": "",
-        "heading_position": "text-center",
-        "heading_font_size": "heading-large",
-        "text_font_size": "body-small",
-        "width": "wrapper--full-padded",
-        "layout_mobile": "2",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "heading_tag": "automatic"
-      }
-    },
     "subcollections": {
       "type": "subcollections",
       "disabled": true,
@@ -142,6 +61,7 @@
             "heading_font_size": "heading-medium",
             "featured_text": "<p>Sculpted in Stone. Designed for Now.</p>",
             "featured_button_text": "Shop now",
+            "featured_button_link": "",
             "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--solid",
@@ -192,7 +112,6 @@
   "order": [
     "section-divider",
     "collection-image-with-title",
-    "section-highlights",
     "subcollections",
     "collection"
   ]

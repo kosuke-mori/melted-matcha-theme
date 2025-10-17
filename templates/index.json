@@ -402,18 +402,11 @@
             "padding_bottom": 24
           }
         },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image_width": 80,
-            "padding_bottom": 16
-          }
-        },
         "buttons": {
           "type": "buttons",
           "settings": {
-            "button_text": "Shop all products",
-            "button_url": "",
+            "button_text": "Shop all tea",
+            "button_url": "shopify://collections",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -426,13 +419,12 @@
         "subheading",
         "heading-2",
         "text-2",
-        "image-2",
         "buttons"
       ],
       "settings": {
         "image_width": "one-half",
         "text_alignment": "text-center",
-        "layout": "",
+        "layout": "is-reversed",
         "width": "wrapper--full-padded",
         "height": "sixty-fifty-height-hero",
         "mobile_height": "four-fifty-height-hero--mobile",
@@ -466,7 +458,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Contact us",
-            "button_url": "",
+            "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -483,10 +475,204 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper--full-padded",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 30,
         "padding_bottom": 30
+      }
+    },
+    "section_sidebar_keKyHK": {
+      "type": "section-sidebar",
+      "blocks": {
+        "header_matcha": {
+          "type": "header",
+          "settings": {
+            "title": "What is Matcha?"
+          }
+        },
+        "accordion_q1": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is matcha?",
+            "content": "<p>Matcha is stone-ground powder made from tencha—tea leaves grown under shade for 20+ days before harvest, then steamed and dried without rolling. Shading blocks sunlight, preventing umami compound L-theanine from converting to bitter catechins, creating matcha's distinctive \"covered aroma,\" sweet taste, and vivid green color from increased chlorophyll production.</p>"
+          }
+        },
+        "accordion_q2": {
+          "type": "accordion",
+          "settings": {
+            "title": "What's the difference between matcha and powdered green tea?",
+            "content": "<p>Matcha is specifically ground tencha (shade-grown tea leaves), while powdered green tea is ground sencha or byproduct powder from regular tea processing. Only matcha has the distinctive covered aroma, vibrant green color, and sweet umami from 20+ days of shading. Powdered green tea doesn't go need to go through shading, tastes more bitter. Instant tea powder is freeze-dried tea extract that fully dissolves in water.</p>"
+          }
+        },
+        "accordion_q3": {
+          "type": "accordion",
+          "settings": {
+            "title": "What are the health benefits of matcha?",
+            "content": "<p>Matcha is rich in antioxidants (catechins), L-theanine for calm focus, and vitamins C and E. Chiran matcha retains maximum nutrients because you consume the entire leaf in powdered form, not just the brewed liquid.</p>"
+          }
+        },
+        "header_about": {
+          "type": "header",
+          "settings": {
+            "title": "About Melted Matcha"
+          }
+        },
+        "accordion_q4": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is Melted Matcha?",
+            "content": "<p>Melted Matcha is a tea and tea ware distributor owned and operated by a Japanese who grew up in a tea farmer family and sources directly from trusted suppliers in Japan. We maintain authentic relationships with tea producers in Kagoshima, southern Japan to ensure quality and traceability.</p>"
+          }
+        },
+        "accordion_q5": {
+          "type": "accordion",
+          "settings": {
+            "title": "Where does Melted Matcha's matcha come from?",
+            "content": "<p>Our matcha is single-region from Chiran, Minamikyushu City in Kagoshima, Japan's largest tea-producing municipality responsible for 16% of the country's tea production. Chiran tea has won national production awards for 5 consecutive years.</p>"
+          }
+        },
+        "accordion_q6": {
+          "type": "accordion",
+          "settings": {
+            "title": "How does Melted Matcha source tea?",
+            "content": "<p>We work exclusively with verified suppliers in Japan, including direct partnerships with tea producers in Chiran. Every batch is traceable to its origin, ensuring authenticity and quality control.</p>"
+          }
+        },
+        "header_quality": {
+          "type": "header",
+          "settings": {
+            "title": "Quality & Selection"
+          }
+        },
+        "accordion_q7": {
+          "type": "accordion",
+          "settings": {
+            "title": "What should I look for in quality matcha?",
+            "content": "<p>High-quality matcha has vivid, bright green color (not pale or reddish), distinctive \"covered aroma\" from proper shading, rich umami with minimal bitterness, and smooth texture when whisked. Color indicates freshness and cultivation quality—premium matcha maintains its emerald hue because of extended shading and proper storage. Lower grades show more yellow or brown tones and higher astringency.</p>"
+          }
+        },
+        "accordion_q8": {
+          "type": "accordion",
+          "settings": {
+            "title": "Does the production region matter?",
+            "content": "<p>While Kyoto's Uji and Aichi's Nishio are famous matcha regions, production techniques have advanced greatly across Japan. Region alone doesn't determine quality—Kyoto matcha ranges from premium to lower grades. We focus on sourcing the highest quality matcha for the price, regardless of whether it carries the premium \"Uji\" designation. Quality comes from proper cultivation, shading, harvest timing, and processing skill.</p>"
+          }
+        },
+        "accordion_q9": {
+          "type": "accordion",
+          "settings": {
+            "title": "What makes Chiran matcha special?",
+            "content": "<p>Chiran matcha is grown in mineral-rich volcanic soil with pure mountain water, producing tea with rich sweetness, minimal bitterness, and vibrant emerald color. The region's shaded cultivation (kabuse) and gentle steaming of tencha leaves preserves chlorophyll and umami, creating smooth, full-bodied flavor with maximum sweetness.</p>"
+          }
+        },
+        "accordion_q10": {
+          "type": "accordion",
+          "settings": {
+            "title": "What tea varieties do you offer?",
+            "content": "<p>We feature premium Kagoshima cultivars including Saemidori (vivid green, mellow sweetness), Yutakamidori (rich body), and seasonal selections. Each variety offers distinct flavor profiles rooted in Chiran's terroir.</p>"
+          }
+        },
+        "accordion_q11": {
+          "type": "accordion",
+          "settings": {
+            "title": "What's the difference between whisk-grade and latte-grade matcha?",
+            "content": "<p>Whisk-grade is our finest quality matcha—typically from first spring harvest—with vivid emerald green color, creamy umami, and low bitterness, perfect for traditional whisked tea. Latte-grade is robust matcha that stands up to milk with balanced sweetness and smooth finish, ideal for lattes, smoothies, and baking. Note that terms like \"ceremonial\" and \"culinary\" are Western marketing terms not traditionally used in Japan. We use whisk-grade and latte-grade to accurately reflect how each matcha performs best.</p>"
+          }
+        },
+        "header_cert": {
+          "type": "header",
+          "settings": {
+            "title": "Certifications & Standards"
+          }
+        },
+        "accordion_q12": {
+          "type": "accordion",
+          "settings": {
+            "title": "Is your matcha organic?",
+            "content": "<p>We offer both certified organic and conventionally grown options that meet strict Japanese food safety standards (G-GAP and JAS). All products undergo rigorous quality testing.</p>"
+          }
+        },
+        "accordion_q13": {
+          "type": "accordion",
+          "settings": {
+            "title": "What quality standards do you follow?",
+            "content": "<p>Our matcha meets Japanese national production standards and comes from award-winning Chiran producers. We maintain full traceability from field to package with third-party testing for purity.</p>"
+          }
+        },
+        "accordion_q14": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do you ensure freshness?",
+            "content": "<p>We import small batches directly from Japan and ship promptly to maintain peak freshness. Our suppliers process tea shortly after harvest to preserve color, aroma, and nutrients.</p>"
+          }
+        },
+        "header_prep": {
+          "type": "header",
+          "settings": {
+            "title": "Preparation & Storage"
+          }
+        },
+        "accordion_q15": {
+          "type": "accordion",
+          "settings": {
+            "title": "How do I prepare traditional matcha?",
+            "content": "<p>Use ~2g matcha powder, add 70-80ml water at 70-80°C, and whisk vigorously in zigzag motion until frothy. Soft water enhances the tea's natural sweetness.</p>"
+          }
+        },
+        "accordion_q16": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can I use your matcha for lattes and cooking?",
+            "content": "<p>Absolutely—Chiran matcha's rich color and balanced flavor work beautifully in lattes, desserts, and savory dishes. Our latte-grade is specifically selected for versatile kitchen use.</p>"
+          }
+        },
+        "accordion_q17": {
+          "type": "accordion",
+          "settings": {
+            "title": "How should I store matcha?",
+            "content": "<p>Store matcha in an airtight container away from light, heat, and moisture, preferably refrigerated. Once open, use within 2-3 months for optimal freshness and vibrant color. Highly recommend refrigerating after opening.</p>"
+          }
+        },
+        "accordion_q18": {
+          "type": "accordion",
+          "settings": {
+            "title": "Does matcha expire?",
+            "content": "<p>Premium matcha, when aged carefully under proper temperature and humidity, can develop increased aroma and mellower taste. However, once opened, use within 2-3 months for peak color and flavor. After that, matcha is still safe to consume but better suited for lattes or baking where milk and heat mask some flavor loss. Lower quality matcha deteriorates faster and doesn't improve with age.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "header_matcha",
+        "accordion_q1",
+        "accordion_q2",
+        "accordion_q3",
+        "header_about",
+        "accordion_q4",
+        "accordion_q5",
+        "accordion_q6",
+        "header_quality",
+        "accordion_q7",
+        "accordion_q8",
+        "accordion_q9",
+        "accordion_q10",
+        "accordion_q11",
+        "header_cert",
+        "accordion_q12",
+        "accordion_q13",
+        "accordion_q14",
+        "header_prep",
+        "accordion_q15",
+        "accordion_q16",
+        "accordion_q17",
+        "accordion_q18"
+      ],
+      "name": "Sidebar",
+      "settings": {
+        "heading_font_size": "heading-small",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section_newsletter_UdCLAw": {
@@ -551,73 +737,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "section_sidebar_keKyHK": {
-      "type": "section-sidebar",
-      "blocks": {
-        "header_hcAyVR": {
-          "type": "header",
-          "settings": {
-            "title": "Shipping & Returns"
-          }
-        },
-        "accordion_M6jxGD": {
-          "type": "accordion",
-          "settings": {
-            "title": "How much is shipping?",
-            "content": "<p>We offer free shipping on all US orders, and a flat rate of $10 for all international orders.</p>"
-          }
-        },
-        "accordion_J7WJAL": {
-          "type": "accordion",
-          "settings": {
-            "title": "What is your return policy?",
-            "content": "<p>We accept returns within 30 days of the purchase date.</p>"
-          }
-        },
-        "header_CLPNRE": {
-          "type": "header",
-          "settings": {
-            "title": "Discount"
-          }
-        },
-        "accordion_DmAY3a": {
-          "type": "accordion",
-          "settings": {
-            "title": "Can I use more than one discount code?",
-            "content": "<p>Only one discount code can be used per order and cannot be combined with other promotions.</p>"
-          }
-        },
-        "header_hEgja9": {
-          "type": "header",
-          "settings": {
-            "title": "Contact"
-          }
-        },
-        "text_DCNCjc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Still have questions? We're happy to help! Please email us at hi@email.com and we will get back to you within 24 hours.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "header_hcAyVR",
-        "accordion_M6jxGD",
-        "accordion_J7WJAL",
-        "header_CLPNRE",
-        "accordion_DmAY3a",
-        "header_hEgja9",
-        "text_DCNCjc"
-      ],
-      "name": "Sidebar",
-      "settings": {
-        "heading_font_size": "heading-small",
-        "width": "wrapper--full-padded",
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -627,7 +746,7 @@
     "section-text-row",
     "section-double",
     "section-rich-text",
-    "section_newsletter_UdCLAw",
-    "section_sidebar_keKyHK"
+    "section_sidebar_keKyHK",
+    "section_newsletter_UdCLAw"
   ]
 }
