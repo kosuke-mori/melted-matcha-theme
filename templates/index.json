@@ -458,7 +458,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Contact us",
-            "button_url": "",
+            "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
