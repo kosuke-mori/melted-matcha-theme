@@ -66,6 +66,7 @@
           "type": "image",
           "settings": {
             "position": "1",
+            "image": "shopify://shop_images/14.png",
             "aspect_ratio": 1,
             "wide_image": false,
             "overlay_type": "text",
