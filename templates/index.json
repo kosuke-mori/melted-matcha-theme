@@ -481,69 +481,6 @@
         "padding_bottom": 30
       }
     },
-    "section_newsletter_UdCLAw": {
-      "type": "section-newsletter",
-      "blocks": {
-        "image_YMYJgw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tea-bud-macro-water-droplets.jpg",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "newsletter_8U7PB9": {
-          "type": "newsletter",
-          "settings": {
-            "subheading": "Tea Insider",
-            "heading": "Get 10% off your first order over $100 when you join Tea Insider",
-            "heading_font_size": "heading-large",
-            "text": "<p>Join for free and get special offers</p>",
-            "text_font_size": "body-medium",
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "Join",
-            "show_arrow": true,
-            "terms": true,
-            "show_name": false,
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_social_links": false,
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_YMYJgw",
-        "newsletter_8U7PB9"
-      ],
-      "name": "Newsletter",
-      "settings": {
-        "width": "wrapper--full",
-        "height": "three-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_sidebar_keKyHK": {
       "type": "section-sidebar",
       "blocks": {
@@ -737,6 +674,69 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "section_newsletter_UdCLAw": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_YMYJgw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tea-bud-macro-water-droplets.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "newsletter_8U7PB9": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Tea Insider",
+            "heading": "Get 10% off your first order over $100 when you join Tea Insider",
+            "heading_font_size": "heading-large",
+            "text": "<p>Join for free and get special offers</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Join",
+            "show_arrow": true,
+            "terms": true,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_YMYJgw",
+        "newsletter_8U7PB9"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "width": "wrapper--full",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -746,7 +746,7 @@
     "section-text-row",
     "section-double",
     "section-rich-text",
-    "section_newsletter_UdCLAw",
-    "section_sidebar_keKyHK"
+    "section_sidebar_keKyHK",
+    "section_newsletter_UdCLAw"
   ]
 }
