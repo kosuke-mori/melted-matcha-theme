@@ -163,7 +163,7 @@
               "type": "button",
               "settings": {
                 "text": "Shop Award-Winning Matcha",
-                "link": "",
+                "link": "shopify://products/whisk-grade-organic-matcha-30g",
                 "type": "btn--white",
                 "size": "btn--large",
                 "style": "btn--solid",
