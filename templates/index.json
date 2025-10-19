@@ -16,14 +16,14 @@
           "type": "_slide-image",
           "name": "Image",
           "settings": {
-            "image": "shopify://shop_images/kosukem9_photographic_close-up_of_a_grean_tea_field_with_dew__db53f8a1-ae96-4df9-9cee-a7955f82f2ca_1.png",
+            "image": "shopify://shop_images/Matcha_field.png",
             "link": "",
             "flex_align_desktop": "align--middle-center-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "show_text_background": false,
             "bg_color": "#0f2a07",
             "color": "#ffffff",
-            "overlay_type": "opacity"
+            "overlay_type": "disabled"
           },
           "blocks": {
             "heading-1": {
