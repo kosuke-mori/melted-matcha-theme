@@ -17,7 +17,7 @@
         "linklist_hjfKBN": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu-1",
+            "linklist": "mini-menu",
             "title": "Melted Matcha",
             "heading_font_size": "heading-small",
             "column_width": 20,
