@@ -24,16 +24,6 @@
             "enable_accordion": false
           }
         },
-        "linklist": {
-          "type": "linklist",
-          "settings": {
-            "linklist": "",
-            "title": "Customer Care",
-            "heading_font_size": "heading-x-small",
-            "column_width": 20,
-            "enable_accordion": false
-          }
-        },
         "linklist-0": {
           "type": "linklist",
           "settings": {
@@ -41,6 +31,17 @@
             "title": "Partner with us",
             "heading_font_size": "heading-x-small",
             "column_width": 20,
+            "enable_accordion": false
+          }
+        },
+        "social_bEhXdc": {
+          "type": "social",
+          "settings": {
+            "title": "Follow us on",
+            "heading_font_size": "heading-x-small",
+            "text": "",
+            "column_width": 20,
+            "enable_follow_on_shop": false,
             "enable_accordion": false
           }
         },
@@ -64,8 +65,8 @@
       },
       "block_order": [
         "linklist_hjfKBN",
-        "linklist",
         "linklist-0",
+        "social_bEhXdc",
         "newsletter"
       ],
       "settings": {
