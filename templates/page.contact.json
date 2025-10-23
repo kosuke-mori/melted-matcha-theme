@@ -41,7 +41,7 @@
         "formHeading": {
           "type": "formHeading",
           "settings": {
-            "title": "All products in this store are for demo purposes only. No orders can be placed on this store."
+            "title": "Tell us a bit about who you are and how we can help. We will reach out to you as soon as we can."
           }
         },
         "text": {
@@ -61,34 +61,8 @@
         "body": {
           "type": "body",
           "settings": {
-            "title": "Message",
+            "title": "Tell us how we can help",
             "required": true
-          }
-        },
-        "formHeading-0": {
-          "type": "formHeading",
-          "settings": {
-            "title": "Optional"
-          }
-        },
-        "checkbox": {
-          "type": "checkbox",
-          "settings": {
-            "title": "This is urgent",
-            "required": false
-          }
-        },
-        "select": {
-          "type": "select",
-          "settings": {
-            "title": "Select an option",
-            "required": false,
-            "label-one": "- Pick an option -",
-            "label-two": "Option one",
-            "label-three": "Option two",
-            "label-four": "Option three",
-            "label-five": "Option four",
-            "label-six": "Option five"
           }
         }
       },
@@ -96,10 +70,7 @@
         "formHeading",
         "text",
         "email",
-        "body",
-        "formHeading-0",
-        "checkbox",
-        "select"
+        "body"
       ],
       "settings": {
         "title": "",
