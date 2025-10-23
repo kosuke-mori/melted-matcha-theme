@@ -203,7 +203,7 @@
             "icon_name": "icon-flare",
             "icon_size": 35,
             "icon_color": "rgba(0,0,0,0)",
-            "title": "Value prop 1",
+            "title": "Single-region matcha",
             "heading_font_size": "heading-x-small",
             "text": "<p>Fully traceable supply chain</p>",
             "text_font_size": "body-small",
@@ -216,9 +216,9 @@
             "icon_name": "icon-donation",
             "icon_size": 35,
             "icon_color": "rgba(0,0,0,0)",
-            "title": "Value prop 2",
+            "title": "Japanese-owned and operated",
             "heading_font_size": "heading-x-small",
-            "text": "<p>1% to orgs and communities</p>",
+            "text": "<p>Built on authentic relationships with tea producers</p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
@@ -229,9 +229,9 @@
             "icon_name": "icon-chat",
             "icon_size": 35,
             "icon_color": "rgba(0,0,0,0)",
-            "title": "Value prop 3",
+            "title": "Chosen by top chefs and tea experts",
             "heading_font_size": "heading-x-small",
-            "text": "<p>Available everyday</p>",
+            "text": "<p>Crafted for those who know quality when they taste it</p>",
             "text_font_size": "body-small",
             "heading_tag": "automatic"
           }
