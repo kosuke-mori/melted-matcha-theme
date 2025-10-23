@@ -482,6 +482,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/farmer-handling-tea-leaves.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
