@@ -12,130 +12,16 @@
     "section-slideshow-nested": {
       "type": "section-slideshow-nested",
       "blocks": {
-        "slide-image": {
-          "type": "_slide-image",
-          "disabled": true,
-          "settings": {
-            "link": "",
-            "flex_align_desktop": "align--bottom-left-desktop",
-            "flex_align_mobile": "align--middle-center-mobile",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "#ffffff",
-            "overlay_type": "text"
-          },
-          "blocks": {
-            "heading": {
-              "type": "heading",
-              "settings": {
-                "text": "Everyday Luxury",
-                "heading_font_size": "heading-large",
-                "heading_tag": "automatic",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
-            "text": {
-              "type": "text",
-              "settings": {
-                "text": "Beautiful pieces to pass down for generations",
-                "text_font_size": "body-large",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
-            "group-buttons": {
-              "type": "_group-buttons",
-              "name": "Side by side buttons",
-              "settings": {
-                "button_text": "Shop all products",
-                "button_url": "",
-                "button_type": "btn--black",
-                "button_size": "",
-                "button_style": "btn--solid",
-                "show_arrow": false,
-                "button_secondary_text": "Shop sale",
-                "button_secondary_url": "",
-                "button_secondary_type": "btn--white",
-                "button_secondary_size": "",
-                "button_secondary_style": "btn--solid",
-                "show_secondary_arrow": false,
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading",
-            "text",
-            "group-buttons"
-          ]
-        },
-        "slide-video": {
-          "type": "_slide-video",
-          "name": "Video",
-          "disabled": true,
-          "settings": {
-            "link": "",
-            "flex_align_desktop": "align--middle-center-desktop",
-            "flex_align_mobile": "align--middle-center-mobile",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "#ffffff",
-            "overlay_type": "opacity"
-          },
-          "blocks": {
-            "heading-0": {
-              "type": "heading",
-              "settings": {
-                "text": "Light That Lives With You",
-                "heading_font_size": "heading-large",
-                "heading_tag": "automatic",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
-            "text-0": {
-              "type": "text",
-              "name": "Text",
-              "settings": {
-                "text": "Crafted to glow with meaning, every day",
-                "text_font_size": "body-large",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
-            "button": {
-              "type": "button",
-              "settings": {
-                "text": "Shop the Gemstone Collection",
-                "link": "",
-                "type": "btn--white",
-                "size": "",
-                "style": "btn--solid",
-                "show_arrow": false,
-                "full_width": false,
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading-0",
-            "text-0",
-            "button"
-          ]
-        },
         "slide-image-0": {
           "type": "_slide-image",
           "name": "Image",
           "settings": {
-            "image": "shopify://shop_images/tea-plants-artistic-shallow-depth.jpg",
+            "image": "shopify://shop_images/Matcha_field.png",
             "link": "",
             "flex_align_desktop": "align--middle-center-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "show_text_background": false,
-            "bg_color": "",
+            "bg_color": "#0f2a07",
             "color": "#ffffff",
             "overlay_type": "disabled"
           },
@@ -182,8 +68,6 @@
         }
       },
       "block_order": [
-        "slide-image",
-        "slide-video",
         "slide-image-0"
       ],
       "name": "Slideshow (Nested)",
@@ -422,6 +306,7 @@
         "buttons"
       ],
       "settings": {
+        "image_1": "shopify://shop_images/SCR-20251018-nimf.jpg",
         "image_width": "one-half",
         "text_alignment": "text-center",
         "layout": "is-reversed",
@@ -681,7 +566,7 @@
         "image_YMYJgw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/tea-bud-macro-water-droplets.jpg",
+            "image": "shopify://shop_images/kosukem9_httpss.mj.runJJP8W0PxSvw_Enhance_this_image_to_high_re_63e51517-2a28-48e1-850c-58609ad5d145.png",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
