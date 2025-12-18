@@ -9,36 +9,38 @@
  */
 {
   "sections": {
-    "featured-posts": {
-      "type": "featured-posts",
+    "section_hero_XrinrN": {
+      "type": "section-hero",
       "blocks": {
-        "featured_post": {
-          "type": "featured_post",
+        "heading_y8W6VW": {
+          "type": "heading",
           "settings": {
-            "featured_post": "",
-            "subheading": "Featured post"
+            "title": "Learn about Matcha",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
           }
         }
       },
       "block_order": [
-        "featured_post"
+        "heading_y8W6VW"
       ],
+      "name": "Image banner",
       "settings": {
-        "show_author": false,
-        "show_date": false,
-        "heading_font_size": "heading-medium",
-        "show_button": true,
-        "button_text": "Read more",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--text",
-        "show_arrow": false,
+        "image_1": "shopify://shop_images/Matcha_field.png",
+        "link": "",
         "width": "wrapper--full",
-        "height": "five-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "color_scheme": "scheme-3",
+        "height": "screen-height-one-third",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-8",
+        "show_text_background": false,
+        "overlay_type": "disabled",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "blog": {
@@ -109,7 +111,7 @@
     }
   },
   "order": [
-    "featured-posts",
+    "section_hero_XrinrN",
     "blog",
     "section_hero_product_QhC4iz"
   ]
