@@ -107,7 +107,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Matcha 101",
-            "button_url": "",
+            "button_url": "shopify://pages/matcha-101",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
