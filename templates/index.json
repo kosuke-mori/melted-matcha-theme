@@ -555,6 +555,7 @@
       "settings": {
         "heading_font_size": "heading-small",
         "width": "wrapper--full-padded",
+        "anchor_id": "faq",
         "color_scheme": "",
         "padding_top": 100,
         "padding_bottom": 100
