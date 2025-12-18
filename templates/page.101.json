@@ -12,138 +12,140 @@
     "main-page": {
       "type": "main-page",
       "settings": {
-        "align_text": "text-center"
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "section-multicolumn": {
       "type": "section-multicolumn",
       "blocks": {
-        "text": {
+        "text_yLa8Wy": {
           "type": "text",
           "settings": {
-            "title": "Willamina Dustice",
-            "text": "<p>Co-Founder</p>",
-            "button_text": ""
+            "column_width": 33,
+            "title": "What is Matcha: Origins and Background",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
           }
         },
-        "text-0": {
+        "text_wzaAHb": {
           "type": "text",
           "settings": {
-            "title": "Sleve McDichael",
-            "text": "<p>Co-Founder</p>",
-            "button_text": ""
+            "column_width": 33,
+            "title": "How Matcha is Made (Basics of Production)",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
           }
         },
-        "text-1": {
+        "text_LKhDpm": {
           "type": "text",
           "settings": {
-            "title": "Boberta Dugnutt",
-            "text": "<p>Co-Founder</p>",
-            "button_text": ""
+            "column_width": 33,
+            "title": "Characteristics of Good Matcha",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_QfNzFd": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "Delicious Matcha Comes from High-Quality Aracha Tencha",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6YQAL6": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "Matcha Grades and Common Misconceptions",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-small",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_kR9rfr": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "Professional Evaluation Criteria for Matcha",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
           }
         }
       },
       "block_order": [
-        "text",
-        "text-0",
-        "text-1"
-      ],
-      "settings": {}
-    },
-    "section-multicolumn-0": {
-      "type": "section-multicolumn",
-      "blocks": {
-        "text-2": {
-          "type": "text",
-          "settings": {
-            "title": "Mike Truk",
-            "text": "<p>Vice President</p>",
-            "button_text": ""
-          }
-        },
-        "text-3": {
-          "type": "text",
-          "settings": {
-            "title": "Glenallen Mixon",
-            "text": "<p>Vice President</p>",
-            "button_text": ""
-          }
-        },
-        "text-4": {
-          "type": "text",
-          "settings": {
-            "title": "Todd Bonzoles",
-            "text": "<p>Vice President</p>",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text-2",
-        "text-3",
-        "text-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Vice Presidents"
-      }
-    },
-    "section-multicolumn-1": {
-      "type": "section-multicolumn",
-      "blocks": {
-        "text-5": {
-          "type": "text",
-          "settings": {
-            "title": "Tony Smehrik",
-            "text": "<p>Vice President</p>",
-            "button_text": ""
-          }
-        },
-        "text-6": {
-          "type": "text",
-          "settings": {
-            "title": "Rey McSriff",
-            "text": "<p>Vice President</p>",
-            "button_text": ""
-          }
-        },
-        "text-7": {
-          "type": "text",
-          "settings": {
-            "title": "Karl Dandleton",
-            "text": "<p>Vice President</p>",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text-5",
-        "text-6",
-        "text-7"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
-    "section-custom-content": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text-8": {
-          "type": "text",
-          "settings": {
-            "subheading": "HQ stories",
-            "title": "A day at the shop",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a story or some unique aspect of your business that will help customers relate to your brand.  This could be a story from the early days of your company, or some aspect of your brand that helps you to stand out.  Typically you will want this section to be about 150 words.  Not too long and not too short. The goal is to give customers a reason to buy from you and not from someone else.  A personal story or a convincing statement of brand values will help you accomplish that.  Help customers connect with your brand and they will want to buy from you. </p>",
-            "button_text": "",
-            "text_columns": 2,
-            "bg_color": "#f7f7f7"
-          }
-        }
-      },
-      "block_order": [
-        "text-8"
+        "text_yLa8Wy",
+        "text_wzaAHb",
+        "text_LKhDpm",
+        "text_QfNzFd",
+        "text_6YQAL6",
+        "text_kR9rfr"
       ],
       "settings": {
-        "height": "image-height"
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "section-custom-content-0": {
@@ -153,7 +155,21 @@
           "type": "image",
           "settings": {
             "title": "",
-            "link_text": ""
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
           }
         },
         "text-9": {
@@ -161,9 +177,21 @@
           "settings": {
             "subheading": "Main and Fifth",
             "title": "Our Office",
+            "heading_font_size": "heading-large",
             "text": "<p>Do you have a physical space that is associated with your brand?  Feature it here.  It doesn't have to be a beautiful storefront. It can be where you came up with the idea for your business or where you stage products for delivery.  Help your customers connect the brand with a place and with real people.  </p>",
+            "text_font_size": "body-medium",
             "button_text": "",
-            "bg_color": "#f7f7f7"
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#f7f7f7",
+            "color": "",
+            "heading_tag": "automatic"
           }
         }
       },
@@ -172,16 +200,21 @@
         "text-9"
       ],
       "settings": {
-        "height": "screen-height-one-half"
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "main-page",
     "section-multicolumn",
-    "section-multicolumn-0",
-    "section-multicolumn-1",
-    "section-custom-content",
+    "main-page",
     "section-custom-content-0"
   ]
 }
