@@ -90,7 +90,7 @@
 {%- endif -%}
 
 <section
-  id="Sidebar--{{ section.id }}"
+  id="{% if section.settings.anchor_id != blank %}{{ section.settings.anchor_id }}{% else %}Sidebar--{{ section.id }}{% endif %}"
   class="section-sidebar section-padding {{ color_scheme }}"
   data-section-id="{{ section.id }}"
   data-section-type="sidebar"
@@ -193,6 +193,12 @@
         {"value": "wrapper--full-padded", "label": "Full width padded"},
         {"value": "wrapper", "label": "Normal"}
       ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Creates a link like yoursite.com/#faq"
     },
     {
       "type": "header",
