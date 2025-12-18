@@ -76,10 +76,22 @@
       additional_props: input_dataset
     %}
   {%- elsif picker_type == 'button' -%}
+    {%- liquid
+      assign swatch_value = null
+      if value.swatch.image
+        assign image_url = value.swatch.image | image_url: width: 50
+        assign swatch_value = 'url(' | append: image_url | append: ')'
+      elsif value.swatch.color
+        assign swatch_value = 'rgb(' | append: value.swatch.color.rgb | append: ')'
+      endif
+    -%}
     <span
-      class="radio__button"
+      class="radio__button swatch-{{ value | handle }}"
       {% if has_variant_option_image %}
         data-variant-option-image
+      {% endif %}
+      {% if swatch_value %}
+        style="--swatch: {{ swatch_value }};"
       {% endif %}
     >
       <input
