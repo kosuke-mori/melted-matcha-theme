@@ -1,0 +1,48 @@
+{%- comment -%}
+  Custom Product Schema (JSON-LD)
+  Replaces Shopify's built-in structured_data to control brand name.
+
+  Usage: {% render 'product-schema', product: product %}
+{%- endcomment -%}
+
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign price = current_variant.price | divided_by: 100.0
+  assign compare_price = current_variant.compare_at_price | divided_by: 100.0
+  assign next_year = 'now' | date: '%Y' | plus: 1
+-%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": {{ product.title | json }},
+  "image": [
+    {%- for image in product.images limit: 5 -%}
+      {{ image | image_url: width: 1024 | json }}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "description": {{ product.description | strip_html | truncate: 500 | json }},
+  {%- if current_variant.sku != blank -%}
+    "sku": {{ current_variant.sku | json }},
+  {%- endif -%}
+  {%- if current_variant.barcode != blank -%}
+    "mpn": {{ current_variant.barcode | json }},
+  {%- endif -%}
+  "brand": {
+    "@type": "Brand",
+    "name": "Melted Matcha"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": {{ request.origin | append: product.url | json }},
+    "priceCurrency": {{ cart.currency.iso_code | json }},
+    "price": {{ price | json }},
+    {%- if compare_price > price -%}
+      "priceValidUntil": "{{ next_year }}-12-31",
+    {%- endif -%}
+    "availability": "https://schema.org/{% if current_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+    "itemCondition": "https://schema.org/NewCondition"
+  }
+}
+</script>

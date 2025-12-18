@@ -11634,6 +11634,26 @@ main-search .input-holder {
   color: var(--bg);
 }
 
+/* Use actual swatch color for color variants instead of theme text color */
+.radio__fieldset .radio__button[style*="--swatch"] input:checked ~ label {
+  background: var(--swatch);
+  color: var(--bg);
+}
+
+/* Adjust text color for light backgrounds */
+.radio__fieldset .radio__button[style*="--swatch"] input:checked ~ label {
+  color: color-mix(in srgb, var(--swatch) 100%, black 70%);
+}
+
+/* Override for very light colors - use dark text */
+.swatch-white .radio__button input:checked ~ label,
+.swatch-cream .radio__button input:checked ~ label,
+.swatch-beige .radio__button input:checked ~ label,
+.swatch-ivory .radio__button input:checked ~ label,
+.swatch-snow .radio__button input:checked ~ label {
+  color: #333 !important;
+}
+
 .radio__fieldset .radio__buttons {
   margin: -4px;
 }
