@@ -1,0 +1,252 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_hero_scrolling_DANtGT": {
+      "type": "section-hero-scrolling",
+      "blocks": {
+        "heading_FdkPcX": {
+          "type": "heading",
+          "settings": {
+            "title": "Macha 101",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FdkPcX"
+      ],
+      "name": "Image with scrolling text",
+      "settings": {
+        "image_1": "shopify://shop_images/a-view-from-shiroyama-park.jpg",
+        "link": "",
+        "message_spacing": 10,
+        "marquee_speed": 100,
+        "flex_align": "align--middle-center",
+        "type_font": "poppins_n4",
+        "text_font_size_px": 20,
+        "mobile_text_font_size_px": 16,
+        "type_letter_spacing": 0,
+        "type_font_caps": false,
+        "scrolling_align": "align--middle-center",
+        "direction": "ticker-rtl",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section-multicolumn": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_yLa8Wy": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "What is Matcha: Origins and Background",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_wzaAHb": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "How Matcha is Made (Basics of Production)",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_LKhDpm": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "Characteristics of Good Matcha",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_QfNzFd": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "Delicious Matcha Comes from High-Quality Aracha Tencha",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6YQAL6": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "Matcha Grades and Common Misconceptions",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-small",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_kR9rfr": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "Professional Evaluation Criteria for Matcha",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_yLa8Wy",
+        "text_wzaAHb",
+        "text_LKhDpm",
+        "text_QfNzFd",
+        "text_6YQAL6",
+        "text_kR9rfr"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-medium",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_HkJdjB": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_HmpPa4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Wholesale & partnership",
+            "padding_bottom": 16
+          }
+        },
+        "heading_FbnAnV": {
+          "type": "heading",
+          "settings": {
+            "title": "Interested in partnering with us?",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_XHtfh6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_43yhwd": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HmpPa4",
+        "heading_FbnAnV",
+        "text_XHtfh6",
+        "buttons_43yhwd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section_hero_scrolling_DANtGT",
+    "section-multicolumn",
+    "main-page",
+    "section_rich_text_HkJdjB"
+  ]
+}
