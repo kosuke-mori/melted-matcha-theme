@@ -27,6 +27,16 @@
     assign attributes = attributes | default: nil
     assign cover = cover | default: false
 
+    assign image_alt = media.preview_image.alt | default: media.alt
+    unless image_alt != blank
+      if product != blank
+        assign image_alt = product.title
+        if media.position > 1
+          assign image_alt = product.title | append: ' - Image ' | append: media.position
+        endif
+      endif
+    endunless
+
     if template.name == 'product' and media == featured_media
       assign loading = 'eager'
       assign fetchpriority = 'high'
@@ -38,7 +48,7 @@
 
     assign image_sizes = '(min-width: 1400px) ' | append: image_width | append: 'px, (min-width: 750px) calc(50vw - 30px), calc(100vw - 32px)'
 
-    render 'image' image: media.preview_image, sizes: image_sizes, loading: loading, fetchpriority: fetchpriority, preload: preload, attributes: attributes, aspect_ratio: media_aspect_ratio, cover: cover
+    render 'image' image: media.preview_image, alt: image_alt, sizes: image_sizes, loading: loading, fetchpriority: fetchpriority, preload: preload, attributes: attributes, aspect_ratio: media_aspect_ratio, cover: cover
 
   endcapture
 -%}
