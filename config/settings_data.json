@@ -61,6 +61,7 @@
     "badge_new_date_limit": 20,
     "show_preorder_badge": true,
     "preorder_bg_color": "#644d3e",
+    "favicon": "shopify://shop_images/16_45c4098e-a87c-49f8-bc7f-40c0ce1fe9e4.png",
     "free_shipping_limit": "200",
     "show_lock_icon": true,
     "show_recently_viewed_products": true,
