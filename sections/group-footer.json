@@ -17,7 +17,7 @@
         "linklist_hjfKBN": {
           "type": "linklist",
           "settings": {
-            "linklist": "mini-menu",
+            "linklist": "footer-main",
             "title": "Melted Matcha",
             "heading_font_size": "heading-small",
             "column_width": 20,
@@ -87,8 +87,8 @@
         "enable_greyscale": false,
         "show_locale_selector": true,
         "show_locale_code": false,
-        "show_globe_icon": true,
-        "show_country_selector": true,
+        "show_globe_icon": false,
+        "show_country_selector": false,
         "show_country_name": false,
         "show_country_flag": true,
         "color_scheme": "scheme-8",
