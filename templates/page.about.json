@@ -75,8 +75,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
-            "heading_font_size": "heading-x-large",
+            "title": "What is Melted Matcha?",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -84,8 +84,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_size": "body-medium",
+            "text": "<p>Melted Matcha is a tea and tea ware distributor owned and operated by a Japanese who grew up in a tea farmer family and sources directly from trusted suppliers in Japan. We maintain authentic relationships with tea producers in Kagoshima, southern Japan to ensure quality and traceability.</p>",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
@@ -95,6 +95,7 @@
         "text"
       ],
       "settings": {
+        "image_1": "shopify://shop_images/tea-field-rows-mountain-distance.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -103,8 +104,8 @@
         "mobile_height": "four-fifty-height-hero--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 50,
+        "padding_top": 50,
+        "padding_bottom": 0,
         "show_placeholder": true
       }
     },
@@ -177,6 +178,7 @@
         "image-0",
         "image-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_font_size": "heading-medium",
@@ -199,8 +201,8 @@
         "heading-0": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
-            "heading_font_size": "heading-x-large",
+            "title": "Where does Melted Matcha's matcha come from?",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -208,8 +210,8 @@
         "text-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_size": "body-medium",
+            "text": "<p>Our matcha is single-region from Chiran, Minamikyushu City in Kagoshima, Japan's largest tea-producing municipality responsible for 16% of the country's tea production. Chiran tea has won national production awards for 5 consecutive years.</p>",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
@@ -219,6 +221,7 @@
         "text-0"
       ],
       "settings": {
+        "image_1": "shopify://shop_images/tea-fields-landscape-volcanic-mountains.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -228,38 +231,48 @@
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_bottom": 0,
         "show_placeholder": true
       }
     },
-    "section-announcement": {
-      "type": "section-announcement",
+    "section_double_jFErGn": {
+      "type": "section-double",
       "blocks": {
-        "text-1": {
+        "heading_GLXcgF": {
+          "type": "heading",
+          "settings": {
+            "title": "How does Melted Matcha source tea?",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_hQfBmc": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Make an announcement</strong> | More info</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
+            "text": "<p>We work exclusively with verified suppliers in Japan, including direct partnerships with tea producers in Chiran. Every batch is traceable to its origin, ensuring authenticity and quality control.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "text-1"
+        "heading_GLXcgF",
+        "text_hQfBmc"
       ],
       "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
+        "image_1": "shopify://shop_images/farmer-handling-tea-leaves.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "sixty-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "reverse_blocks": false,
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section-collections-list": {
@@ -268,37 +281,13 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
+            "collection": "matcha-powder",
             "title": ""
           }
         }
       },
       "block_order": [
-        "collection",
-        "collection-0",
-        "collection-1",
-        "collection-2"
+        "collection"
       ],
       "settings": {
         "title": "",
@@ -321,71 +310,6 @@
         "padding_bottom": 32,
         "heading_tag": "automatic"
       }
-    },
-    "section-press-logos": {
-      "type": "section-press-logos",
-      "blocks": {
-        "logo-item-header": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 150,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo-item-header-0": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 150,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo-item-header-1": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 150,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        },
-        "logo-item-header-2": {
-          "type": "logo-item-header",
-          "settings": {
-            "logo_width": 150,
-            "link": "",
-            "text": "Include a brief quote from a brand that loves your products",
-            "heading_font_size": "heading-small"
-          }
-        }
-      },
-      "block_order": [
-        "logo-item-header",
-        "logo-item-header-0",
-        "logo-item-header-1",
-        "logo-item-header-2"
-      ],
-      "settings": {
-        "enable_heading_slider": false,
-        "logo_opacity": 60,
-        "title": "As seen in",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "section-divider": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full-padded",
-        "color_scheme": "",
-        "padding_top": 31,
-        "padding_bottom": 50
-      }
     }
   },
   "order": [
@@ -394,9 +318,7 @@
     "section-double",
     "section-columns",
     "section-double-0",
-    "section-announcement",
-    "section-collections-list",
-    "section-press-logos",
-    "section-divider"
+    "section_double_jFErGn",
+    "section-collections-list"
   ]
 }
