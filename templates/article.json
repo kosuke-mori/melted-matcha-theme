@@ -14,21 +14,153 @@
       "blocks": {
         "related": {
           "type": "related",
-          "settings": {}
+          "settings": {
+            "title": "Related products",
+            "product_list": []
+          }
         },
         "recent": {
           "type": "recent",
-          "settings": {}
+          "settings": {
+            "title": "Recent articles"
+          }
         }
       },
       "block_order": [
         "related",
         "recent"
       ],
-      "settings": {}
+      "settings": {
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_XAeteY": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_GAwrAK": {
+          "type": "heading",
+          "settings": {
+            "title": "Award-Winning single region matcha",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_aMKeGz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Matcha from Japan's southern tea powerhouse</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_zW4xHb": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop",
+            "link": "shopify://products/whisk-grade-organic-matcha-30g",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_GAwrAK",
+        "text_aMKeGz",
+        "button_zW4xHb"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/15_225c7759-9553-417e-95d2-e5623adccb7d.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_iREUaP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_Mm4JFQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Wholesale & partnership",
+            "padding_bottom": 16
+          }
+        },
+        "heading_yEDLFW": {
+          "type": "heading",
+          "settings": {
+            "title": "Interested in partnering with us?",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_RfaWew": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_W8NcP6": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Mm4JFQ",
+        "heading_yEDLFW",
+        "text_RfaWew",
+        "buttons_W8NcP6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "article"
+    "article",
+    "section_hero_XAeteY",
+    "section_rich_text_iREUaP"
   ]
 }
