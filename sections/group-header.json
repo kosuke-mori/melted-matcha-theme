@@ -17,7 +17,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Join Tea Insider and get 10% off your first order.</p>",
+            "text": "<p>Join Tea Insider and get 10% off your first order. </p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
