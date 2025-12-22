@@ -120,11 +120,19 @@
             "heading_tag": "automatic"
           }
         },
+        "text_YCy4RQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bulk purchasing, white-labeling, and more.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
         "buttons_W8NcP6": {
           "type": "buttons",
           "settings": {
             "button_text": "Contact us",
-            "button_url": "",
+            "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -136,6 +144,7 @@
       "block_order": [
         "subheading_Mm4JFQ",
         "heading_yEDLFW",
+        "text_YCy4RQ",
         "buttons_W8NcP6"
       ],
       "name": "Rich text",
