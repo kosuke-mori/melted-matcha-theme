@@ -93,7 +93,7 @@
         "content_width": 50,
         "mobile_height": "screen-height-three-quarters--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
+        "color_scheme": "scheme-8",
         "show_text_background": false,
         "overlay_type": "disabled",
         "padding_top": 0,
