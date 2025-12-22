@@ -45,8 +45,8 @@
       "submit": "Join",
       "placeholder": "Email Address",
       "thank_you": "Thanks for signing up!",
-      "thank_you_with_code_html": "Thanks for signing up! Use the code <span>Discount10</span> for 10% off.",
-      "error_message": "This customer is already subscribed!",
+      "thank_you_with_code_html": "Thanks for signing up. We’ve sent a discount code to your inbox!",
+      "error_message": "The email you entered indicates you may have already signed up before.",
       "product_notification_for": "Product notification for",
       "newsletter_product_availability": "Notify Me When It's Available",
       "notify": "Notify Me",
@@ -497,7 +497,7 @@
       "taxes_included": "Taxes included.",
       "duties_included": "Duties included.",
       "quantity": {
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> in cart",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> in cart",
         "decrease": "Decrease quantity for {{ product }}",
         "multiples_of": "Increments of {{ quantity }}",
         "minimum_of": "Minimum of {{ quantity }}",
@@ -511,7 +511,7 @@
       },
       "volume_pricing": {
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "at {{ price }}\/ea",
+        "price_at_each_html": "at {{ price }}/ea",
         "title": "Volume Pricing",
         "note": "Volume pricing available"
       },
@@ -532,7 +532,7 @@
   },
   "sections": {
     "quick_order_list": {
-      "each": "{{ money }}\/ea"
+      "each": "{{ money }}/ea"
     }
   },
   "countdown": {
