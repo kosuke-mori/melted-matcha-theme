@@ -70,7 +70,7 @@
             "link_text": "Shop",
             "link": "shopify://products/whisk-grade-organic-matcha-30g",
             "button_type": "btn--primary",
-            "button_size": "btn--large",
+            "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
             "full_width": true,
