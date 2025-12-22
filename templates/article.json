@@ -120,18 +120,10 @@
             "heading_tag": "automatic"
           }
         },
-        "text_RfaWew": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
         "buttons_W8NcP6": {
           "type": "buttons",
           "settings": {
-            "button_text": "Learn more",
+            "button_text": "Contact us",
             "button_url": "",
             "button_type": "btn--primary",
             "button_size": "",
@@ -144,7 +136,6 @@
       "block_order": [
         "subheading_Mm4JFQ",
         "heading_yEDLFW",
-        "text_RfaWew",
         "buttons_W8NcP6"
       ],
       "name": "Rich text",
