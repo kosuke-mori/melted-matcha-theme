@@ -97,7 +97,7 @@
           "type": "large-newsletter",
           "settings": {
             "subheading": "",
-            "title": "Tea Insider",
+            "title": "10% OFF your first order",
             "text": "<p>Join Tea Insider for free and get 10% OFF your first order over $70. Get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
             "newsletter_enable": true,
             "button_text": "Join",
