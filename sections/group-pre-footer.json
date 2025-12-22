@@ -41,9 +41,9 @@
           "disabled": true,
           "settings": {
             "subheading": "Newsletter",
-            "heading": "Sign up",
+            "heading": "Join",
             "heading_font_size": "heading-large",
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "text": "<p>Join Tea Insider for free and get 10% off your first order over $65.</p>",
             "text_font_size": "body-medium",
             "text_columns": 1,
             "align_text": "text-left",
