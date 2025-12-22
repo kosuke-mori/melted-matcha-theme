@@ -101,7 +101,7 @@
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "trigger": "always",
+            "trigger": "bottom",
             "bg_color": "",
             "color": "",
             "target_url_enabled": false,
