@@ -15,7 +15,7 @@
   {%- endstyle -%}
 
   <div
-    id="Newsletter--{{ section.id }}"
+    id="{% if section.settings.anchor_id != blank %}{{ section.settings.anchor_id }}{% else %}Newsletter--{{ section.id }}{% endif %}"
     class="index-newsletter {{ color_scheme }}"
     data-section-id="{{ section.id }}"
     data-section-type="newsletter"
@@ -145,6 +145,12 @@
       "unit": "px",
       "label": "Bottom",
       "default": 0
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Creates a link like yoursite.com/#newsletter"
     }
   ],
   "blocks": [
