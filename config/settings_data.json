@@ -62,7 +62,7 @@
     "show_preorder_badge": true,
     "preorder_bg_color": "#644d3e",
     "favicon": "shopify://shop_images/16_45c4098e-a87c-49f8-bc7f-40c0ce1fe9e4.png",
-    "free_shipping_limit": "70",
+    "free_shipping_limit": "50",
     "show_lock_icon": true,
     "show_recently_viewed_products": true,
     "currency_code_enable": true,
@@ -76,6 +76,14 @@
     "checkout_accent_color": "#ab8c52",
     "checkout_button_color": "#ab8c52",
     "checkout_error_color": "#c85c42",
+    "sections": {
+      "gift-card": {
+        "type": "gift-card",
+        "settings": {
+          "logo_max_limit": 300
+        }
+      }
+    },
     "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
