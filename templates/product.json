@@ -121,7 +121,7 @@
             "show_description": false,
             "show_read_more": false,
             "default_open": false,
-            "heading": "Ingredients & Sourcing",
+            "heading": "Brewing Instructions",
             "heading_font_size": "body-medium",
             "text": "{{ product.metafields.custom.ingredients_sourcing | metafield_tag }}",
             "text_font_size": "body-medium",
