@@ -275,40 +275,153 @@
         "show_placeholder": true
       }
     },
-    "section-collections-list": {
-      "type": "section-collections-list",
+    "section_featured_product_c63mVy": {
+      "type": "section-featured-product",
       "blocks": {
-        "collection": {
-          "type": "collection",
+        "title_XAGTJE": {
+          "type": "title",
           "settings": {
-            "collection": "matcha-powder",
-            "title": ""
+            "subheading_option": "breadcrumb",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 8
+          }
+        },
+        "description_dJcbWV": {
+          "type": "description",
+          "settings": {
+            "show_read_more": true,
+            "padding_bottom": 0
+          }
+        },
+        "price_7b4pYL": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_4QUUeq": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "divider_d3NTi9": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
+        "accordion_mXj3kc": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "Taste Notes & Flavor",
+            "text": "{{ section.settings.product.metafields.custom.taste_notes_flavor | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_nPMhwr": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "How to Enjoy",
+            "text": "{{ section.settings.product.metafields.custom.how_to_enjoy | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_Nbd4Xw": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "Brewing Instructions",
+            "text": "{{ section.settings.product.metafields.custom.ingredients_sourcing | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_H9Kjyq": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "Additional Details",
+            "text": "{{ section.settings.product.metafields.custom.additional_details | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "icon_mk3rxC": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Free shipping on orders over $50</p>",
+            "text_font_size": "body-medium",
+            "width": "full",
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "collection"
+        "title_XAGTJE",
+        "description_dJcbWV",
+        "price_7b4pYL",
+        "buttons_4QUUeq",
+        "divider_d3NTi9",
+        "accordion_mXj3kc",
+        "accordion_nPMhwr",
+        "accordion_Nbd4Xw",
+        "accordion_H9Kjyq",
+        "icon_mk3rxC"
       ],
+      "name": "Product",
       "settings": {
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "description": "",
-        "text_font_size": "body-medium",
-        "button_text": "",
-        "button_url": "shopify://collections",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "aspect_ratio": 1.2,
-        "width": "wrapper--full-padded",
-        "layout": "grid",
-        "grid": 4,
-        "layout_mobile": "slider",
+        "product": "whisk-grade-organic-matcha-30g",
+        "width": "wrapper",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "thumbnails",
+        "mobile_image_style": "thumbs",
         "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 32,
-        "heading_tag": "automatic"
+        "padding_top": 90,
+        "padding_bottom": 30
       }
     }
   },
@@ -319,6 +432,6 @@
     "section-columns",
     "section-double-0",
     "section_double_jFErGn",
-    "section-collections-list"
+    "section_featured_product_c63mVy"
   ]
 }
