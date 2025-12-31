@@ -211,7 +211,7 @@
             "icon_name": "icon-truck",
             "icon_size": 20,
             "icon_color": "",
-            "text": "<p>Free shipping on orders over $150</p>",
+            "text": "<p>Free shipping on orders over $50</p>",
             "text_font_size": "body-small",
             "width": "full",
             "padding_bottom": 8
@@ -354,7 +354,7 @@
           "type": "accordion",
           "settings": {
             "title": "How much is shipping?",
-            "content": "<p>We offer free shipping for an order of $150 more within the USA. All subscriptions ship free within the USA.</p>"
+            "content": "<p>We offer free shipping for an order of $50 more within the USA. All subscriptions ship free within the USA.</p>"
           }
         },
         "accordion_6btb8W": {
