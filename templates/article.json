@@ -131,8 +131,8 @@
         "buttons_W8NcP6": {
           "type": "buttons",
           "settings": {
-            "button_text": "Contact us",
-            "button_url": "shopify://pages/contact",
+            "button_text": "See our offerings",
+            "button_url": "https://importmatcha.com/",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
