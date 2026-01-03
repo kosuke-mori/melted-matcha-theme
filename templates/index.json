@@ -54,6 +54,7 @@
                 "size": "btn--large",
                 "style": "btn--solid",
                 "show_arrow": false,
+                "icon": "",
                 "full_width": false,
                 "padding_bottom": 8
               },
@@ -69,6 +70,7 @@
                 "size": "btn--large",
                 "style": "btn--solid",
                 "show_arrow": true,
+                "icon": "chatgpt",
                 "full_width": false,
                 "padding_bottom": 8
               },
