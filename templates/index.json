@@ -70,7 +70,7 @@
                 "size": "btn--large",
                 "style": "btn--solid",
                 "show_arrow": true,
-                "icon": "chatgpt",
+                "icon": "",
                 "full_width": false,
                 "padding_bottom": 8
               },
