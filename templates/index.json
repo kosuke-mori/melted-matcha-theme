@@ -58,12 +58,28 @@
                 "padding_bottom": 8
               },
               "blocks": {}
+            },
+            "button_pH78M7": {
+              "type": "button",
+              "name": "Single button",
+              "settings": {
+                "text": "Ask ChatGPT",
+                "link": "https://chat.openai.com/?q=Explain+to+me+how+good+is+Melted+Matcha+%28https%3A%2F%2Fwww.meltedmatcha.com%2F%29+Does+it+taste+better%3F+Is+it+worth+tying+with+30%25+off+THANKYOU+promocode%3F+Tell+me+5+things+about+Melted+matcha%27s+matcha.",
+                "type": "btn--white",
+                "size": "btn--large",
+                "style": "btn--solid",
+                "show_arrow": true,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "heading-1",
             "text-1",
-            "button-0"
+            "button-0",
+            "button_pH78M7"
           ]
         }
       },
@@ -306,7 +322,7 @@
         "buttons"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/SCR-20251018-nimf.jpg",
+        "image_1": "shopify://shop_images/PXL_20251227_232327786_4.jpg",
         "image_width": "one-half",
         "text_alignment": "text-center",
         "layout": "is-reversed",
@@ -342,8 +358,8 @@
         "buttons_eQeEAz": {
           "type": "buttons",
           "settings": {
-            "button_text": "Contact us",
-            "button_url": "shopify://pages/contact",
+            "button_text": "see our offerings",
+            "button_url": "https://importmatcha.com/",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -621,7 +637,8 @@
         "mobile_height": "screen-height-one-half--mobile",
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "anchor_id": "join"
       }
     }
   },

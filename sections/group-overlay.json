@@ -116,6 +116,7 @@
       "block_order": [
         "large_newsletter_MR8ft9"
       ],
+      "disabled": true,
       "name": "Newsletter",
       "settings": {
         "color_scheme": ""
