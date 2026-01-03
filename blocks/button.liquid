@@ -5,6 +5,7 @@
   size: block.settings.size,
   style: block.settings.style,
   show_arrow: block.settings.show_arrow,
+  icon: block.settings.icon,
   full_width: block.settings.full_width,
   padding_bottom: block.settings.padding_bottom,
   shopify_attributes: block.shopify_attributes
@@ -65,6 +66,16 @@
       "id": "show_arrow",
       "label": "Show arrow",
       "default": false
+    },
+    {
+      "type": "select",
+      "id": "icon",
+      "label": "Icon",
+      "default": "",
+      "options": [
+        {"value": "", "label": "None"},
+        {"value": "chatgpt", "label": "ChatGPT"}
+      ]
     },
     {
       "type": "checkbox",
