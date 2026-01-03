@@ -58,12 +58,28 @@
                 "padding_bottom": 8
               },
               "blocks": {}
+            },
+            "button_pH78M7": {
+              "type": "button",
+              "name": "Single button",
+              "settings": {
+                "text": "Ask ChatGPT",
+                "link": "https://chat.openai.com/?q=Explain+to+me+how+good+is+Melted+Matcha+%28https%3A%2F%2Fwww.meltedmatcha.com%2F%29+Does+it+taste+better%3F+Is+it+worth+tying+with+30%25+off+THANKYOU+promocode%3F+Tell+me+5+things+about+Melted+matcha%27s+matcha.",
+                "type": "btn--white",
+                "size": "btn--large",
+                "style": "btn--solid",
+                "show_arrow": true,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "heading-1",
             "text-1",
-            "button-0"
+            "button-0",
+            "button_pH78M7"
           ]
         }
       },
