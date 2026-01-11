@@ -16,20 +16,20 @@
           "type": "_slide-image",
           "name": "Image",
           "settings": {
-            "image": "shopify://shop_images/Matcha_field.png",
+            "image": "shopify://shop_images/iced-matcha-latte-glass-side-view.jpg",
             "link": "",
             "flex_align_desktop": "align--middle-center-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "show_text_background": false,
             "bg_color": "#0f2a07",
-            "color": "#ffffff",
+            "color": "#0f2a07",
             "overlay_type": "disabled"
           },
           "blocks": {
             "heading-1": {
               "type": "heading",
               "settings": {
-                "text": "Matcha from Japan’s southern tea powerhouse",
+                "text": "You know what quality coffee tastes like. Now taste quality matcha.",
                 "heading_font_size": "heading-large",
                 "heading_tag": "automatic",
                 "padding_bottom": 16
@@ -154,7 +154,7 @@
         "image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5.png",
+            "image": "shopify://shop_images/fresh-tea-leaves-closeup-misty-field.jpg",
             "title": "National Awards for 5 Consecutive Years",
             "heading_font_size": "heading-medium",
             "text": "",
@@ -176,8 +176,8 @@
         "image-4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2.png",
-            "title": "Naturally Deep Green Hue",
+            "image": "shopify://shop_images/bamboo-whisk-whisking-matcha-bubbles-closeup.jpg",
+            "title": "50+ Years of Tea-Making Expertise",
             "heading_font_size": "heading-medium",
             "text": "",
             "text_font_size": "body-medium",
