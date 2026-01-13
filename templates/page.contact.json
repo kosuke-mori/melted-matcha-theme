@@ -58,6 +58,13 @@
             "required": false
           }
         },
+        "text_Gzre9P": {
+          "type": "text",
+          "settings": {
+            "title": "Where are your located? (City, Country)",
+            "required": true
+          }
+        },
         "email": {
           "type": "email",
           "settings": {
@@ -90,6 +97,7 @@
         "formHeading",
         "text",
         "text_YqAjpV",
+        "text_Gzre9P",
         "email",
         "body",
         "select_EHKRfF"
