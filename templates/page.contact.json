@@ -47,8 +47,22 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "Full Name",
+            "title": "Your Name",
+            "required": true
+          }
+        },
+        "text_YqAjpV": {
+          "type": "text",
+          "settings": {
+            "title": "Company name",
             "required": false
+          }
+        },
+        "text_Gzre9P": {
+          "type": "text",
+          "settings": {
+            "title": "Where are your located? (City, Country)",
+            "required": true
           }
         },
         "email": {
@@ -64,13 +78,29 @@
             "title": "Tell us how we can help",
             "required": true
           }
+        },
+        "select_EHKRfF": {
+          "type": "select",
+          "settings": {
+            "title": "Where did you hear about us?",
+            "required": true,
+            "label-one": "Internet search",
+            "label-two": "Chat GPT",
+            "label-three": "From a friend",
+            "label-four": "Instagram",
+            "label-five": "Reddit",
+            "label-six": "Other"
+          }
         }
       },
       "block_order": [
         "formHeading",
         "text",
+        "text_YqAjpV",
+        "text_Gzre9P",
         "email",
-        "body"
+        "body",
+        "select_EHKRfF"
       ],
       "settings": {
         "title": "",

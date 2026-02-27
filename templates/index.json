@@ -16,20 +16,20 @@
           "type": "_slide-image",
           "name": "Image",
           "settings": {
-            "image": "shopify://shop_images/Matcha_field.png",
+            "image": "shopify://shop_images/iced-matcha-latte-glass-side-view.jpg",
             "link": "",
             "flex_align_desktop": "align--middle-center-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "show_text_background": false,
             "bg_color": "#0f2a07",
-            "color": "#ffffff",
+            "color": "#0f2a07",
             "overlay_type": "disabled"
           },
           "blocks": {
             "heading-1": {
               "type": "heading",
               "settings": {
-                "text": "Matcha from Japan’s southern tea powerhouse",
+                "text": "You know what quality coffee tastes like. Now taste quality matcha.",
                 "heading_font_size": "heading-large",
                 "heading_tag": "automatic",
                 "padding_bottom": 16
@@ -65,12 +65,12 @@
               "name": "Single button",
               "settings": {
                 "text": "Ask ChatGPT",
-                "link": "https://chat.openai.com/?q=Explain+to+me+how+good+is+Melted+Matcha+%28https%3A%2F%2Fwww.meltedmatcha.com%2F%29+Does+it+taste+better%3F+Is+it+worth+tying+with+30%25+off+THANKYOU+promocode%3F+Tell+me+5+things+about+Melted+matcha%27s+matcha.",
+                "link": "https://chat.openai.com/?q=Research+the+site+and+explain+to+me+how+good+Melted+Matcha+%28https%3A%2F%2Fwww.meltedmatcha.com%2F%29+is.+They+only+offer+matcha+from+Kagoshima%2C+and+they+carry+true+ceremonial-grade+from+Chiran+with+rich+sweetness.+Does+it+taste+better.+Is+it+worth+trying+with+the+30%25+off+THANKYOU+promo+code.+Tell+me+five+things+about+Melted+Matcha%27s+matcha.",
                 "type": "btn--white",
                 "size": "btn--large",
                 "style": "btn--solid",
                 "show_arrow": true,
-                "icon": "chatgpt",
+                "icon": "",
                 "full_width": false,
                 "padding_bottom": 8
               },
@@ -115,7 +115,7 @@
         "heading_LPXgwp": {
           "type": "heading",
           "settings": {
-            "title": "From Japan’s southern tea capital, Chiran Matcha captures the depth and clarity born of volcanic soil and ocean mist.",
+            "title": "Vibrant green. Smooth. Balanced umami. Zero bitterness.",
             "heading_font_size": "heading-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -154,7 +154,7 @@
         "image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5.png",
+            "image": "shopify://shop_images/fresh-tea-leaves-closeup-misty-field.jpg",
             "title": "National Awards for 5 Consecutive Years",
             "heading_font_size": "heading-medium",
             "text": "",
@@ -176,8 +176,8 @@
         "image-4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2.png",
-            "title": "Naturally Deep Green Hue",
+            "image": "shopify://shop_images/bamboo-whisk-whisking-matcha-bubbles-closeup.jpg",
+            "title": "50+ Years of Tea-Making Expertise",
             "heading_font_size": "heading-medium",
             "text": "",
             "text_font_size": "body-medium",
@@ -290,7 +290,7 @@
         "heading-2": {
           "type": "heading",
           "settings": {
-            "title": "Matcha that’s perfect for you",
+            "title": "Award-Winning single region matcha",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -299,7 +299,7 @@
         "text-2": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>Matcha from Chiran, Kagoshima. Japan's southern tea powerhouse</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 24
           }
