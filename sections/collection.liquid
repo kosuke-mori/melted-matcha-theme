@@ -34,7 +34,19 @@
   if enable_infinity_scroll
     assign items_container_tag = 'ajaxinate-items'
   endif
+
+  assign collection_has_gate = false
+  if collection.metafields.custom.page_password.value != blank and request.design_mode == false
+    assign collection_has_gate = true
+  endif
 -%}
+
+<div class="password-gate-wrapper{% if collection_has_gate %} password-gate-active{% endif %}">
+  {%- if collection_has_gate -%}
+    {%- render 'password-gate', gate_object: collection -%}
+  {%- endif -%}
+
+  <div class="password-gate-content">
 
 {%- capture image_sizes -%}
   {%- if filter_layout == 'inline-open' and enable_filters -%}
@@ -405,6 +417,9 @@
 {% comment %} End of [Custom] Partner FAQs section {% endcomment %}
 
 {%- endpaginate -%}
+
+  </div>
+</div>
 
 {% schema %}
 {

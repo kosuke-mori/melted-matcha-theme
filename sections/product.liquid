@@ -7,12 +7,14 @@
   endif
 -%}
 
-<div class="product-gate-wrapper{% if product_has_gate %} product-gate-active{% endif %}">
+<div class="password-gate-wrapper{% if product_has_gate %} password-gate-active{% endif %}">
   {%- if product_has_gate -%}
-    {%- render 'product-gate', product: product -%}
+    {%- render 'password-gate', gate_object: product -%}
   {%- endif -%}
 
-  {%- render 'product' -%}
+  <div class="password-gate-content">
+    {%- render 'product' -%}
+  </div>
 </div>
 
 {% schema %}
