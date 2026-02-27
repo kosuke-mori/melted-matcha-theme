@@ -1,6 +1,19 @@
 <!-- /sections/product.liquid -->
 
-{%- render 'product' -%}
+{%- liquid
+  assign product_has_gate = false
+  if product.metafields.custom.page_password.value != blank and request.design_mode == false
+    assign product_has_gate = true
+  endif
+-%}
+
+<div class="product-gate-wrapper{% if product_has_gate %} product-gate-active{% endif %}">
+  {%- if product_has_gate -%}
+    {%- render 'product-gate', product: product -%}
+  {%- endif -%}
+
+  {%- render 'product' -%}
+</div>
 
 {% schema %}
 {
