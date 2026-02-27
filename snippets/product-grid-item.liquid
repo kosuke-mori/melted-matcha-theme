@@ -753,9 +753,11 @@
               </span>
             {%- endif -%}
 
-            <div class="product-item__price" data-product-price>
-              {%- render 'product-grid-price', product: product, current_variant: current_variant -%}
-            </div>
+            {%- unless hide_price -%}
+              <div class="product-item__price" data-product-price>
+                {%- render 'product-grid-price', product: product, current_variant: current_variant -%}
+              </div>
+            {%- endunless -%}
           </div>
         </a>
 
