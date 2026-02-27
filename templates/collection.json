@@ -52,7 +52,6 @@
     },
     "collection": {
       "type": "collection",
-      "disabled": true,
       "settings": {
         "enable_sort": true,
         "enable_filters": true,
