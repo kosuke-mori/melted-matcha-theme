@@ -1,0 +1,136 @@
+{%- capture gate_password_hashes -%}
+  [{% for pw in product.metafields.custom.page_password.value %}"{{ pw | sha256 }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
+{%- endcapture -%}
+
+<style>
+  .product-gate-active .product__wrapper {
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .product-gate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    padding: 2rem;
+  }
+  .product-gate__inner {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  .product-gate__title {
+    margin-bottom: 0.5rem;
+  }
+  .product-gate__message {
+    margin-bottom: 1.5rem;
+    color: var(--link-a70, #666);
+  }
+  .product-gate__form {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .product-gate__input {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border, #ccc);
+    background: var(--bg, #fff);
+    font-family: inherit;
+    font-size: inherit;
+    flex: 1;
+    max-width: 260px;
+  }
+  .product-gate__submit {
+    padding: 0.75rem 1.5rem;
+    background: var(--accent, #000);
+    color: var(--bg, #fff);
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  .product-gate__submit:hover {
+    opacity: 0.85;
+  }
+  .product-gate__error {
+    display: none;
+    color: #c00;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+  }
+</style>
+
+<product-password-gate data-password-hashes='{{ gate_password_hashes }}' data-product-handle="{{ product.handle }}">
+  <div class="product-gate">
+    <div class="product-gate__inner">
+      <h2 class="product-gate__title">{{ product.title }}</h2>
+      <p class="product-gate__message">This product requires a password to view.</p>
+      <form class="product-gate__form" action="#">
+        <input
+          type="password"
+          class="product-gate__input"
+          placeholder="Enter password"
+          autocomplete="off"
+          required
+        >
+        <button type="submit" class="product-gate__submit">Enter</button>
+      </form>
+      <p class="product-gate__error">Incorrect password. Please try again.</p>
+    </div>
+  </div>
+</product-password-gate>
+
+<script>
+  if (!customElements.get('product-password-gate')) {
+    customElements.define('product-password-gate', class extends HTMLElement {
+      connectedCallback() {
+        if (window.Shopify && Shopify.designMode) {
+          this.unlock();
+          return;
+        }
+
+        this.hashes = JSON.parse(this.dataset.passwordHashes);
+        this.storageKey = 'product_gate_unlocked_' + this.dataset.productHandle;
+
+        if (sessionStorage.getItem(this.storageKey) === 'true') {
+          this.unlock();
+          return;
+        }
+
+        this.form = this.querySelector('.product-gate__form');
+        this.input = this.querySelector('.product-gate__input');
+        this.error = this.querySelector('.product-gate__error');
+        this.form.addEventListener('submit', this.handleSubmit.bind(this));
+      }
+
+      async handleSubmit(e) {
+        e.preventDefault();
+        var value = this.input.value;
+        if (!value) return;
+
+        var encoded = new TextEncoder().encode(value);
+        var hashBuffer = await crypto.subtle.digest('SHA-256', encoded);
+        var hashArray = Array.from(new Uint8Array(hashBuffer));
+        var hashHex = hashArray.map(function(b) { return b.toString(16).padStart(2, '0'); }).join('');
+
+        if (this.hashes.includes(hashHex)) {
+          sessionStorage.setItem(this.storageKey, 'true');
+          this.unlock();
+        } else {
+          this.error.style.display = 'block';
+          this.input.value = '';
+          this.input.focus();
+        }
+      }
+
+      unlock() {
+        var wrapper = this.closest('.product-gate-wrapper');
+        if (wrapper) wrapper.classList.remove('product-gate-active');
+        this.style.display = 'none';
+      }
+    });
+  }
+</script>
