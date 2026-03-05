@@ -33,6 +33,7 @@
         },
         "free-shipping": {
           "type": "free-shipping",
+          "disabled": true,
           "settings": {
             "message": "You are ||amount|| away from free shipping.",
             "text_font_size": "body-x-small",
