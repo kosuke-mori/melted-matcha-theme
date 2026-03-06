@@ -16,6 +16,7 @@
       "blocks": {
         "cart-message": {
           "type": "cart-message",
+          "disabled": true,
           "settings": {
             "cart_custom_message_text": "<p>Join Tea Insider for free and get 10% off your first order over $65.</p>",
             "text_font_size": "body-x-small",
