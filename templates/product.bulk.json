@@ -1,0 +1,525 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section-divider": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product": {
+      "type": "product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "sale_badge": true,
+            "product_badges": true,
+            "padding_bottom": 8
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 8
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "settings": {
+            "show_notice": "always",
+            "max_inventory": 10,
+            "show_inventory_counter": false,
+            "icon_size": 20,
+            "in_stock_color": "#56ad6a",
+            "low_stock_color": "#f79554",
+            "out_of_stock_color": "#721c24",
+            "padding_bottom": 24
+          }
+        },
+        "siblings": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "",
+            "sibling_color": "",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "ring-size-guide",
+            "size_chart_style": "question",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "description_RA4Jke": {
+          "type": "description",
+          "settings": {
+            "show_read_more": true,
+            "padding_bottom": 0
+          }
+        },
+        "accordion_taste_notes": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": true,
+            "heading": "Taste Notes & Flavor",
+            "heading_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.taste_notes_flavor | metafield_tag }}",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "accordion_how_to_enjoy": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "How to Enjoy",
+            "heading_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.how_to_enjoy | metafield_tag }}",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 8
+          }
+        },
+        "accordion_ingredients": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": false,
+            "default_open": false,
+            "heading": "Brewing Instructions",
+            "heading_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.ingredients_sourcing | metafield_tag }}",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 24
+          }
+        },
+        "accordion_additional_details": {
+          "type": "accordion",
+          "settings": {
+            "style": "collapsible",
+            "show_description": false,
+            "show_read_more": true,
+            "default_open": false,
+            "heading": "Additional Details",
+            "heading_font_size": "body-medium",
+            "text": "{{ product.metafields.custom.additional_details | metafield_tag }}",
+            "text_font_size": "body-medium",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "divider_hd8Ar8": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "button_type": "btn--black",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_dynamic_checkout": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "divider-0": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 32
+          }
+        },
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>100% Japanese tea from southern Japan. </p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Free US shipping on orders over $50 USD</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-donation",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Carefully sourced from local farmers</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 8
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "",
+            "text": "<p>Exceptional taste</p>",
+            "text_font_size": "body-small",
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": [],
+            "show_available_upsell_only": false,
+            "layout": "stacked",
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 24
+          }
+        },
+        "features": {
+          "type": "features",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "title": "Need help?",
+            "text_font_size": "body-medium",
+            "text": "<p><a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">Contact us</a></p>",
+            "bg_color": "#fcfbf9",
+            "color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "title",
+        "inventory_countdown",
+        "siblings",
+        "variants",
+        "description_RA4Jke",
+        "accordion_taste_notes",
+        "accordion_how_to_enjoy",
+        "accordion_ingredients",
+        "accordion_additional_details",
+        "divider_hd8Ar8",
+        "price",
+        "buttons",
+        "divider-0",
+        "pickup",
+        "icon",
+        "icon-0",
+        "icon-1",
+        "icon-2",
+        "divider",
+        "upsell",
+        "features"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "mobile_image_style": "slider",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "section_sidebar_iLBeXk": {
+      "type": "section-sidebar",
+      "blocks": {
+        "header_6jmmFc": {
+          "type": "header",
+          "settings": {
+            "title": "How to drink"
+          }
+        },
+        "accordion_iEeqyT": {
+          "type": "accordion",
+          "settings": {
+            "title": "What will I use to make matcha?",
+            "content": "<p>Making matcha is a beautiful ritual that highlights the unique qualities of Japanese tea powder. Traditionally you'll want to have following:<br/></p><h4>What You’ll Need</h4><ul><li><strong>High-quality matcha powder</strong></li><li><strong>Tea bowl (Chawan)</strong></li><li><strong>Bamboo whisk (Chasen)</strong></li><li><strong>Sifter (optional, but helps prevent lumps)</strong></li><li><strong>Hot water (about 80°C / 176°F)</strong></li><li><strong>Tea scoop (Chashaku) or small spoon</strong></li></ul>"
+          }
+        },
+        "accordion_ymx7Kj": {
+          "type": "accordion",
+          "settings": {
+            "title": "Can you teach me step by step how to make matcha?",
+            "content": "<p>Absolutely! Here’s a step-by-step guide for preparing matcha using the traditional Japanese method:<br/></p><h4>1. Warm the Bowl and Whisk</h4><p>Heat water to a boil. Place the bamboo whisk into the tea bowl. Pour hot water into the bowl until the whisk is submerged. Let it sit for several minutes.</p><p>(Because the whisk is made of bamboo, gently warming it improves flexibility and makes whisking easier. Using it dry increases the risk of breaking.</p><p>Discard the hot water used to warm the bowl and whisk. Wipe the bowl dry.</p><p></p><h4>2. Sift the Matcha</h4><p>Measure <strong>2 grams</strong> of matcha powder. This equals roughly 1 to 2 Tea scoops (Chashaku) or about 1 teaspoon.<br/></p><p>Sift the matcha directly into the warmed bowl. This removes clumps and produces a smoother texture and finer foam.</p><p></p><h4>3. Prepare the Water</h4><p>Boil fresh water, then let it cool to approximately <strong>80°C / 176°F</strong>.</p><p>Water that is too hot burns the matcha and increases bitterness. Lower temperature highlights sweetness and umami.</p><p></p><h4>4. Add Hot water</h4><p>Pour <strong>70 ml</strong> of hot water into the bowl. This ratio is standard for <strong>薄茶 (usucha)</strong>, the everyday style of matcha.</p><p></p><h4>5. Whisk</h4><p>Hold the bowl steady. Whisk briskly using an <strong>M</strong> or <strong>W</strong> motion. Do not stir in circles.</p><p><br/>The goal is to fully suspend the powder and create fine, even foam with no visible clumps. Texture should be smooth and creamy.</p><p></p><h4>6. Enjoy</h4><p>Matcha degrades quickly once prepared. Drink directly from the bowl. Flavor profile should read in this order. Soft sweetness. Deep umami. Clean vegetal notes. Light astringency at the finish.</p>"
+          }
+        },
+        "accordion_8a6MBW": {
+          "type": "accordion",
+          "settings": {
+            "title": "Any other tips for making matcha?",
+            "content": "<h4>Additional tips:</h4><ul><li><strong>Mind water quality. </strong>Soft water is ideal. Hard water flattens sweetness and suppresses umami.<strong><br/>Sifting the powder</strong> before whisking is key for avoiding lumps.</li><li><strong>Whisk vigorously</strong> for about 15-30 seconds for a frothy texture. Rapid motion creates foam. </li><li><strong>Adjust strength</strong> to suit your preference by varying the amount of powder or water.</li><li>For a richer “koicha” (thick tea), use more matcha powder and less water.</li></ul>"
+          }
+        },
+        "header_CnjcWH": {
+          "type": "header",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "accordion_bb9aYf": {
+          "type": "accordion",
+          "settings": {
+            "title": "How much is shipping?",
+            "content": "<p>We offer free shipping for an order of $50 more within the USA. All subscriptions ship free within the USA.</p>"
+          }
+        },
+        "accordion_6btb8W": {
+          "type": "accordion",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>Due to food safety, we are unable to accept any returns on tea or other food items.</p>"
+          }
+        },
+        "header_tri4yt": {
+          "type": "header",
+          "settings": {
+            "title": "Contact"
+          }
+        },
+        "text_6RMX9T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Still have questions? We're happy to help! Please <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">contact us</a> and we will get back to you as soon as we can. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "header_6jmmFc",
+        "accordion_iEeqyT",
+        "accordion_ymx7Kj",
+        "accordion_8a6MBW",
+        "header_CnjcWH",
+        "accordion_bb9aYf",
+        "accordion_6btb8W",
+        "header_tri4yt",
+        "text_6RMX9T"
+      ],
+      "name": "Sidebar",
+      "settings": {
+        "heading_font_size": "heading-small",
+        "width": "wrapper--full-padded",
+        "anchor_id": "faq",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section-hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Matcha from Japan's southern tea powerhouse",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text-5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Award-Winning single region matcha, vibrant and umami-rich</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading-1",
+        "text-5"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/15.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "seven-fifty-height-hero",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related-0": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products"
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed"
+          }
+        }
+      },
+      "block_order": [
+        "related-0",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "limit": 4,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_double_4AGnhf": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_ABiBaf": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Producer Information",
+            "padding_bottom": 16
+          }
+        },
+        "text_MB9Qiw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hamada Tea (お茶のはまだ) is a tea company based in Chiran, Kagoshima, Japan. <br/><br/>Chiran tea is a premium Japanese green tea from Minamikyushu City in Kagoshima.<br/>The tea is distinguished by its rich sweetness with minimal bitterness, and vibrant green color, all cultivated in mineral-rich volcanic soil. Chiran has won national production awards for 5 consecutive years and is known for early spring harvest, diverse cultivars, and strict quality control standards.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ABiBaf",
+        "text_MB9Qiw"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/farmer-handling-tea-leaves.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    }
+  },
+  "order": [
+    "section-divider",
+    "product",
+    "section_sidebar_iLBeXk",
+    "section-hero",
+    "related",
+    "section_double_4AGnhf"
+  ]
+}
